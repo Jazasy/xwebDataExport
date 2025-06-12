@@ -1,0 +1,5923 @@
+[
+  {
+    "id": 2,
+    "name": "4.4 Intenzív kocsis hűtő",
+    "points": [
+      {
+        "id": 1,
+        "value": 8.8,
+        "label": "Terem H",
+        "unit": "°C"
+      },
+      {
+        "id": 2,
+        "value": 7.3,
+        "label": "Lamella H",
+        "unit": "°C"
+      },
+      {
+        "value": 3,
+        "id": 6,
+        "editable": true,
+        "label": "Alapjel",
+        "unit": "°C"
+      },
+      {
+        "id": 22,
+        "value": 0,
+        "label": "Generic Digital Input"
+      },
+      {
+        "id": 24,
+        "value": 0,
+        "label": "Defrost"
+      },
+      {
+        "id": 28,
+        "value": 1,
+        "label": "Fan"
+      },
+      {
+        "id": 31,
+        "value": 1,
+        "label": "Cooling"
+      },
+      {
+        "id": 33,
+        "value": 1,
+        "label": "On"
+      },
+      {
+        "id": 34,
+        "value": 0,
+        "label": "Defrost"
+      },
+      {
+        "id": 44,
+        "value": 0,
+        "label": "High Value Pb1"
+      },
+      {
+        "id": 45,
+        "value": 0,
+        "label": "Low Value Pb1"
+      },
+      {
+        "id": 100000,
+        "value": 0,
+        "label": "No-Link"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "4.5 Nagy rúdáru -szeletelésre váró- hűtő (jobb)",
+    "points": [
+      {
+        "id": 1,
+        "value": 1.4,
+        "label": "Terem H",
+        "unit": "°C"
+      },
+      {
+        "id": 2,
+        "value": 0.3,
+        "label": "Lamella H",
+        "unit": "°C"
+      },
+      {
+        "value": 1,
+        "id": 6,
+        "editable": true,
+        "label": "Alapjel",
+        "unit": "°C"
+      },
+      {
+        "id": 22,
+        "value": 0,
+        "label": "Generic Digital Input"
+      },
+      {
+        "id": 24,
+        "value": 0,
+        "label": "Defrost"
+      },
+      {
+        "id": 28,
+        "value": 1,
+        "label": "Fan"
+      },
+      {
+        "id": 31,
+        "value": 1,
+        "label": "Cooling"
+      },
+      {
+        "id": 33,
+        "value": 1,
+        "label": "On"
+      },
+      {
+        "id": 34,
+        "value": 0,
+        "label": "Defrost"
+      },
+      {
+        "id": 44,
+        "value": 0,
+        "label": "High Value Pb1"
+      },
+      {
+        "id": 45,
+        "value": 0,
+        "label": "Low Value Pb1"
+      },
+      {
+        "id": 100000,
+        "value": 0,
+        "label": "No-Link"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "4.6 Nagy rúdáru -szeletelésre váró- hűtő (bal)",
+    "points": [
+      {
+        "id": 1,
+        "value": 1.3,
+        "label": "Terem H",
+        "unit": "°C"
+      },
+      {
+        "id": 2,
+        "value": 0.5,
+        "label": "Lamella H",
+        "unit": "°C"
+      },
+      {
+        "value": 1,
+        "id": 6,
+        "editable": true,
+        "label": "Alapjel",
+        "unit": "°C"
+      },
+      {
+        "id": 22,
+        "value": 0,
+        "label": "Generic Digital Input"
+      },
+      {
+        "id": 24,
+        "value": 0,
+        "label": "Defrost"
+      },
+      {
+        "id": 28,
+        "value": 1,
+        "label": "Fan"
+      },
+      {
+        "id": 31,
+        "value": 1,
+        "label": "Cooling"
+      },
+      {
+        "id": 33,
+        "value": 1,
+        "label": "On"
+      },
+      {
+        "id": 34,
+        "value": 0,
+        "label": "Defrost"
+      },
+      {
+        "id": 44,
+        "value": 0,
+        "label": "High Value Pb1"
+      },
+      {
+        "id": 45,
+        "value": 0,
+        "label": "Low Value Pb1"
+      },
+      {
+        "id": 100000,
+        "value": 0,
+        "label": "No-Link"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "4.7.1 Komissiózó, Túra (3 vent)",
+    "points": [
+      {
+        "id": 1,
+        "value": 3.3,
+        "label": "Terem H",
+        "unit": "°C"
+      },
+      {
+        "id": 2,
+        "value": 3.1,
+        "label": "Lamella H",
+        "unit": "°C"
+      },
+      {
+        "value": 3,
+        "id": 6,
+        "editable": true,
+        "label": "Alapjel",
+        "unit": "°C"
+      },
+      {
+        "id": 22,
+        "value": 0,
+        "label": "Generic Digital Input"
+      },
+      {
+        "id": 24,
+        "value": 0,
+        "label": "Defrost"
+      },
+      {
+        "id": 28,
+        "value": 1,
+        "label": "Fan"
+      },
+      {
+        "id": 31,
+        "value": 0,
+        "label": "Cooling"
+      },
+      {
+        "id": 33,
+        "value": 1,
+        "label": "On"
+      },
+      {
+        "id": 34,
+        "value": 0,
+        "label": "Defrost"
+      },
+      {
+        "id": 44,
+        "value": 0,
+        "label": "High Value Pb1"
+      },
+      {
+        "id": 45,
+        "value": 0,
+        "label": "Low Value Pb1"
+      },
+      {
+        "id": 100000,
+        "value": 0,
+        "label": "No-Link"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "4.8.2 Készáru kiadó (bal)",
+    "points": [
+      {
+        "id": 1,
+        "value": 3.2,
+        "label": "Terem H",
+        "unit": "°C"
+      },
+      {
+        "id": 2,
+        "value": 2.3,
+        "label": "Lamella H",
+        "unit": "°C"
+      },
+      {
+        "value": 2,
+        "id": 6,
+        "editable": true,
+        "label": "Alapjel",
+        "unit": "°C"
+      },
+      {
+        "id": 22,
+        "value": 0,
+        "label": "Generic Digital Input"
+      },
+      {
+        "id": 24,
+        "value": 0,
+        "label": "Defrost"
+      },
+      {
+        "id": 28,
+        "value": 1,
+        "label": "Fan"
+      },
+      {
+        "id": 31,
+        "value": 1,
+        "label": "Cooling"
+      },
+      {
+        "id": 33,
+        "value": 1,
+        "label": "On"
+      },
+      {
+        "id": 34,
+        "value": 0,
+        "label": "Defrost"
+      },
+      {
+        "id": 44,
+        "value": 0,
+        "label": "High Value Pb1"
+      },
+      {
+        "id": 45,
+        "value": 0,
+        "label": "Low Value Pb1"
+      },
+      {
+        "id": 100000,
+        "value": 0,
+        "label": "No-Link"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "4.8.1 Készáru kiadó (jobb)",
+    "points": [
+      {
+        "id": 1,
+        "value": 2.5,
+        "label": "Terem H",
+        "unit": "°C"
+      },
+      {
+        "id": 2,
+        "value": 1.5,
+        "label": "Lamella H",
+        "unit": "°C"
+      },
+      {
+        "value": 2,
+        "id": 6,
+        "editable": true,
+        "label": "Alapjel",
+        "unit": "°C"
+      },
+      {
+        "id": 22,
+        "value": 0,
+        "label": "Generic Digital Input"
+      },
+      {
+        "id": 24,
+        "value": 0,
+        "label": "Defrost"
+      },
+      {
+        "id": 28,
+        "value": 1,
+        "label": "Fan"
+      },
+      {
+        "id": 31,
+        "value": 1,
+        "label": "Cooling"
+      },
+      {
+        "id": 33,
+        "value": 1,
+        "label": "On"
+      },
+      {
+        "id": 34,
+        "value": 0,
+        "label": "Defrost"
+      },
+      {
+        "id": 44,
+        "value": 0,
+        "label": "High Value Pb1"
+      },
+      {
+        "id": 45,
+        "value": 0,
+        "label": "Low Value Pb1"
+      },
+      {
+        "id": 100000,
+        "value": 0,
+        "label": "No-Link"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "4.7.2 Komissiózó, Túra (2 vent)",
+    "points": [
+      {
+        "id": 1,
+        "value": 3.1,
+        "label": "Terem H",
+        "unit": "°C"
+      },
+      {
+        "id": 2,
+        "value": 3.1,
+        "label": "Lamella H",
+        "unit": "°C"
+      },
+      {
+        "value": 2,
+        "id": 6,
+        "editable": true,
+        "label": "Alapjel",
+        "unit": "°C"
+      },
+      {
+        "id": 22,
+        "value": 0,
+        "label": "Generic Digital Input"
+      },
+      {
+        "id": 24,
+        "value": 0,
+        "label": "Defrost"
+      },
+      {
+        "id": 28,
+        "value": 1,
+        "label": "Fan"
+      },
+      {
+        "id": 31,
+        "value": 1,
+        "label": "Cooling"
+      },
+      {
+        "id": 33,
+        "value": 1,
+        "label": "On"
+      },
+      {
+        "id": 34,
+        "value": 0,
+        "label": "Defrost"
+      },
+      {
+        "id": 44,
+        "value": 0,
+        "label": "High Value Pb1"
+      },
+      {
+        "id": 45,
+        "value": 0,
+        "label": "Low Value Pb1"
+      },
+      {
+        "id": 100000,
+        "value": 0,
+        "label": "No-Link"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "name": "6.4 Massza hűtő (töltelék)",
+    "points": [
+      {
+        "id": 1,
+        "value": 1,
+        "label": "Terem H",
+        "unit": "°C"
+      },
+      {
+        "id": 2,
+        "value": 0.5,
+        "label": "Lamella H",
+        "unit": "°C"
+      },
+      {
+        "value": 1,
+        "id": 6,
+        "editable": true,
+        "label": "Alapjel",
+        "unit": "°C"
+      },
+      {
+        "id": 22,
+        "value": 0,
+        "label": "Generic Digital Input"
+      },
+      {
+        "id": 24,
+        "value": 0,
+        "label": "Defrost"
+      },
+      {
+        "id": 28,
+        "value": 1,
+        "label": "Fan"
+      },
+      {
+        "id": 31,
+        "value": 0,
+        "label": "Cooling"
+      },
+      {
+        "id": 33,
+        "value": 1,
+        "label": "On"
+      },
+      {
+        "id": 34,
+        "value": 0,
+        "label": "Defrost"
+      },
+      {
+        "id": 44,
+        "value": 0,
+        "label": "High Value Pb1"
+      },
+      {
+        "id": 45,
+        "value": 0,
+        "label": "Low Value Pb1"
+      },
+      {
+        "id": 100000,
+        "value": 0,
+        "label": "No-Link"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "name": "6.6 Pácoló",
+    "points": [
+      {
+        "id": 1,
+        "value": 10,
+        "label": "Terem H",
+        "unit": "°C"
+      },
+      {
+        "id": 2,
+        "value": 9.1,
+        "label": "Lamella H",
+        "unit": "°C"
+      },
+      {
+        "value": 10,
+        "id": 6,
+        "editable": true,
+        "label": "Alapjel",
+        "unit": "°C"
+      },
+      {
+        "id": 22,
+        "value": 0,
+        "label": "Generic Digital Input"
+      },
+      {
+        "id": 24,
+        "value": 0,
+        "label": "Defrost"
+      },
+      {
+        "id": 28,
+        "value": 1,
+        "label": "Fan"
+      },
+      {
+        "id": 31,
+        "value": 0,
+        "label": "Cooling"
+      },
+      {
+        "id": 33,
+        "value": 1,
+        "label": "On"
+      },
+      {
+        "id": 34,
+        "value": 0,
+        "label": "Defrost"
+      },
+      {
+        "id": 44,
+        "value": 0,
+        "label": "High Value Pb1"
+      },
+      {
+        "id": 45,
+        "value": 0,
+        "label": "Low Value Pb1"
+      },
+      {
+        "id": 100000,
+        "value": 0,
+        "label": "No-Link"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "name": "5.3 Hőkezelő előtti",
+    "points": [
+      {
+        "id": 1,
+        "value": 7.6,
+        "label": "Terem H",
+        "unit": "°C"
+      },
+      {
+        "id": 2,
+        "value": 5.6,
+        "label": "Lamella H",
+        "unit": "°C"
+      },
+      {
+        "value": 7.5,
+        "id": 6,
+        "editable": true,
+        "label": "Alapjel",
+        "unit": "°C"
+      },
+      {
+        "id": 22,
+        "value": 0,
+        "label": "Generic Digital Input"
+      },
+      {
+        "id": 24,
+        "value": 0,
+        "label": "Defrost"
+      },
+      {
+        "id": 28,
+        "value": 0,
+        "label": "Fan"
+      },
+      {
+        "id": 31,
+        "value": 1,
+        "label": "Cooling"
+      },
+      {
+        "id": 33,
+        "value": 1,
+        "label": "On"
+      },
+      {
+        "id": 34,
+        "value": 0,
+        "label": "Defrost"
+      },
+      {
+        "id": 44,
+        "value": 0,
+        "label": "High Value Pb1"
+      },
+      {
+        "id": 45,
+        "value": 0,
+        "label": "Low Value Pb1"
+      },
+      {
+        "id": 100000,
+        "value": 0,
+        "label": "No-Link"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "name": "5.1 Daráló helyiség",
+    "points": [
+      {
+        "id": 1,
+        "value": 6.2,
+        "label": "Terem H",
+        "unit": "°C"
+      },
+      {
+        "id": 2,
+        "value": 6.5,
+        "label": "Lamella H",
+        "unit": "°C"
+      },
+      {
+        "value": 3.5,
+        "id": 6,
+        "editable": true,
+        "label": "Alapjel",
+        "unit": "°C"
+      },
+      {
+        "id": 22,
+        "value": 0,
+        "label": "Generic Digital Input"
+      },
+      {
+        "id": 24,
+        "value": 0,
+        "label": "Defrost"
+      },
+      {
+        "id": 28,
+        "value": 0,
+        "label": "Fan"
+      },
+      {
+        "id": 31,
+        "value": 1,
+        "label": "Cooling"
+      },
+      {
+        "id": 33,
+        "value": 1,
+        "label": "On"
+      },
+      {
+        "id": 34,
+        "value": 0,
+        "label": "Defrost"
+      },
+      {
+        "id": 44,
+        "value": 0,
+        "label": "High Value Pb1"
+      },
+      {
+        "id": 45,
+        "value": 0,
+        "label": "Low Value Pb1"
+      },
+      {
+        "id": 100000,
+        "value": 0,
+        "label": "No-Link"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "name": "5.2 Szeparátor helyiség",
+    "points": [
+      {
+        "id": 1,
+        "value": 6.8,
+        "label": "Terem H",
+        "unit": "°C"
+      },
+      {
+        "id": 2,
+        "value": 4.1,
+        "label": "Lamella H",
+        "unit": "°C"
+      },
+      {
+        "value": 7,
+        "id": 6,
+        "editable": true,
+        "label": "Alapjel",
+        "unit": "°C"
+      },
+      {
+        "id": 22,
+        "value": 0,
+        "label": "Generic Digital Input"
+      },
+      {
+        "id": 24,
+        "value": 0,
+        "label": "Defrost"
+      },
+      {
+        "id": 28,
+        "value": 0,
+        "label": "Fan"
+      },
+      {
+        "id": 31,
+        "value": 0,
+        "label": "Cooling"
+      },
+      {
+        "id": 33,
+        "value": 1,
+        "label": "On"
+      },
+      {
+        "id": 34,
+        "value": 0,
+        "label": "Defrost"
+      },
+      {
+        "id": 44,
+        "value": 0,
+        "label": "High Value Pb1"
+      },
+      {
+        "id": 45,
+        "value": 0,
+        "label": "Low Value Pb1"
+      },
+      {
+        "id": 100000,
+        "value": 0,
+        "label": "No-Link"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "name": "5.5 Készáru manipuláció",
+    "points": [
+      {
+        "id": 1,
+        "value": 10.8,
+        "label": "Terem H",
+        "unit": "°C"
+      },
+      {
+        "id": 2,
+        "value": 4.2,
+        "label": "Lamella H",
+        "unit": "°C"
+      },
+      {
+        "value": 10,
+        "id": 6,
+        "editable": true,
+        "label": "Alapjel",
+        "unit": "°C"
+      },
+      {
+        "id": 22,
+        "value": 0,
+        "label": "Generic Digital Input"
+      },
+      {
+        "id": 24,
+        "value": 0,
+        "label": "Defrost"
+      },
+      {
+        "id": 28,
+        "value": 0,
+        "label": "Fan"
+      },
+      {
+        "id": 31,
+        "value": 0,
+        "label": "Cooling"
+      },
+      {
+        "id": 33,
+        "value": 1,
+        "label": "On"
+      },
+      {
+        "id": 34,
+        "value": 0,
+        "label": "Defrost"
+      },
+      {
+        "id": 44,
+        "value": 0,
+        "label": "High Value Pb1"
+      },
+      {
+        "id": 45,
+        "value": 0,
+        "label": "Low Value Pb1"
+      },
+      {
+        "id": 100000,
+        "value": 0,
+        "label": "No-Link"
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "name": "5.7 Szeletelő (belső)",
+    "points": [
+      {
+        "id": 1,
+        "value": 12.4,
+        "label": "Terem H",
+        "unit": "°C"
+      },
+      {
+        "id": 2,
+        "value": 5.9,
+        "label": "Lamella H",
+        "unit": "°C"
+      },
+      {
+        "value": 9,
+        "id": 6,
+        "editable": true,
+        "label": "Alapjel",
+        "unit": "°C"
+      },
+      {
+        "id": 22,
+        "value": 0,
+        "label": "Generic Digital Input"
+      },
+      {
+        "id": 24,
+        "value": 0,
+        "label": "Defrost"
+      },
+      {
+        "id": 28,
+        "value": 0,
+        "label": "Fan"
+      },
+      {
+        "id": 31,
+        "value": 1,
+        "label": "Cooling"
+      },
+      {
+        "id": 33,
+        "value": 1,
+        "label": "On"
+      },
+      {
+        "id": 34,
+        "value": 0,
+        "label": "Defrost"
+      },
+      {
+        "id": 44,
+        "value": 0,
+        "label": "High Value Pb1"
+      },
+      {
+        "id": 45,
+        "value": 0,
+        "label": "Low Value Pb1"
+      },
+      {
+        "id": 100000,
+        "value": 0,
+        "label": "No-Link"
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "name": "Gépház hűtés vezérlés",
+    "points": [
+      {
+        "id": 1,
+        "value": 23.2,
+        "label": "Probe 1",
+        "unit": "°C"
+      },
+      {
+        "id": 2,
+        "value": 0,
+        "label": "Probe 2",
+        "unit": "°C"
+      },
+      {
+        "value": 23,
+        "id": 6,
+        "editable": true,
+        "label": "Alapjel",
+        "unit": "°C"
+      },
+      {
+        "id": 24,
+        "value": 0,
+        "label": "Defrost"
+      },
+      {
+        "id": 28,
+        "value": 0,
+        "label": "Fan"
+      },
+      {
+        "id": 31,
+        "value": 0,
+        "label": "Cooling"
+      },
+      {
+        "id": 33,
+        "value": 1,
+        "label": "On"
+      },
+      {
+        "id": 34,
+        "value": 0,
+        "label": "Defrost"
+      },
+      {
+        "id": 36,
+        "value": 0,
+        "label": "Keyboard"
+      },
+      {
+        "id": 44,
+        "value": 0,
+        "label": "High Value Pb1"
+      },
+      {
+        "id": 45,
+        "value": 0,
+        "label": "Low Value Pb1"
+      },
+      {
+        "id": 100000,
+        "value": 0,
+        "label": "No-Link"
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "name": "KEVERT kör Motoros szelep vezérlés",
+    "points": [
+      {
+        "id": 2,
+        "value": 1,
+        "label": "Probe Dec",
+        "unit": "°C"
+      },
+      {
+        "value": 0,
+        "id": 16,
+        "editable": true,
+        "label": "Set 1 Dec-Tem",
+        "unit": "°C"
+      },
+      {
+        "value": 0,
+        "id": 17,
+        "editable": true,
+        "label": "Set 2 Dec-Tem",
+        "unit": "°C"
+      },
+      {
+        "value": 0,
+        "id": 18,
+        "editable": true,
+        "label": "Set 3 Dec-Tem",
+        "unit": "°C"
+      },
+      {
+        "id": 32,
+        "value": 0,
+        "label": "Generic Alarm"
+      },
+      {
+        "id": 34,
+        "value": 0,
+        "label": "Alarm"
+      },
+      {
+        "id": 36,
+        "value": 0,
+        "label": "Load 1"
+      },
+      {
+        "id": 37,
+        "value": 0,
+        "label": "Load 2"
+      },
+      {
+        "id": 38,
+        "value": 0,
+        "label": "Load 3"
+      },
+      {
+        "id": 40,
+        "value": 1,
+        "label": "On"
+      },
+      {
+        "id": 41,
+        "value": 0,
+        "label": "Keyboard"
+      },
+      {
+        "id": 42,
+        "value": 0,
+        "label": "Energy Saving"
+      },
+      {
+        "id": 43,
+        "value": 0,
+        "label": "Low Value Pb1"
+      },
+      {
+        "id": 44,
+        "value": 0,
+        "label": "High Value Pb1"
+      },
+      {
+        "id": 45,
+        "value": 0,
+        "label": "Error Pb1"
+      },
+      {
+        "id": 47,
+        "value": 0,
+        "label": "External Alarm"
+      },
+      {
+        "id": 48,
+        "value": 0,
+        "label": "EEPROM Failure"
+      },
+      {
+        "id": 100000,
+        "value": 0,
+        "label": "No-Link"
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "name": "6.3 Nyersanyag (2-es) hűtő",
+    "points": [
+      {
+        "id": 1,
+        "value": 1.5,
+        "label": "Terem H",
+        "unit": "°C"
+      },
+      {
+        "id": 2,
+        "value": 0.9,
+        "label": "Lamella H",
+        "unit": "°C"
+      },
+      {
+        "value": 1,
+        "id": 6,
+        "editable": true,
+        "label": "Alapjel",
+        "unit": "°C"
+      },
+      {
+        "id": 22,
+        "value": 0,
+        "label": "Generic Digital Input"
+      },
+      {
+        "id": 24,
+        "value": 0,
+        "label": "Defrost"
+      },
+      {
+        "id": 28,
+        "value": 1,
+        "label": "Fan"
+      },
+      {
+        "id": 31,
+        "value": 1,
+        "label": "Cooling"
+      },
+      {
+        "id": 33,
+        "value": 1,
+        "label": "On"
+      },
+      {
+        "id": 34,
+        "value": 0,
+        "label": "Defrost"
+      },
+      {
+        "id": 44,
+        "value": 0,
+        "label": "High Value Pb1"
+      },
+      {
+        "id": 45,
+        "value": 0,
+        "label": "Low Value Pb1"
+      },
+      {
+        "id": 100000,
+        "value": 0,
+        "label": "No-Link"
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "name": "5.10.1 Töltelék üzem (jobb)",
+    "points": [
+      {
+        "id": 1,
+        "value": 9.2,
+        "label": "Terem H",
+        "unit": "°C"
+      },
+      {
+        "id": 2,
+        "value": 1.8,
+        "label": "Lamella H",
+        "unit": "°C"
+      },
+      {
+        "value": 8,
+        "id": 6,
+        "editable": true,
+        "label": "Alapjel",
+        "unit": "°C"
+      },
+      {
+        "id": 22,
+        "value": 0,
+        "label": "Generic Digital Input"
+      },
+      {
+        "id": 24,
+        "value": 0,
+        "label": "Defrost"
+      },
+      {
+        "id": 28,
+        "value": 0,
+        "label": "Fan"
+      },
+      {
+        "id": 31,
+        "value": 1,
+        "label": "Cooling"
+      },
+      {
+        "id": 33,
+        "value": 1,
+        "label": "On"
+      },
+      {
+        "id": 34,
+        "value": 0,
+        "label": "Defrost"
+      },
+      {
+        "id": 44,
+        "value": 0,
+        "label": "High Value Pb1"
+      },
+      {
+        "id": 45,
+        "value": 0,
+        "label": "Low Value Pb1"
+      },
+      {
+        "id": 100000,
+        "value": 0,
+        "label": "No-Link"
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "name": "5.10.2 Töltelék üzem (bal)",
+    "points": [
+      {
+        "id": 1,
+        "value": 9.5,
+        "label": "Terem H",
+        "unit": "°C"
+      },
+      {
+        "id": 2,
+        "value": 65.9,
+        "label": "Lamella H",
+        "unit": "°C"
+      },
+      {
+        "value": 8,
+        "id": 6,
+        "editable": true,
+        "label": "Alapjel",
+        "unit": "°C"
+      },
+      {
+        "id": 22,
+        "value": 0,
+        "label": "Generic Digital Input"
+      },
+      {
+        "id": 24,
+        "value": 0,
+        "label": "Defrost"
+      },
+      {
+        "id": 28,
+        "value": 0,
+        "label": "Fan"
+      },
+      {
+        "id": 31,
+        "value": 1,
+        "label": "Cooling"
+      },
+      {
+        "id": 33,
+        "value": 1,
+        "label": "On"
+      },
+      {
+        "id": 34,
+        "value": 0,
+        "label": "Defrost"
+      },
+      {
+        "id": 44,
+        "value": 0,
+        "label": "High Value Pb1"
+      },
+      {
+        "id": 45,
+        "value": 0,
+        "label": "Low Value Pb1"
+      },
+      {
+        "id": 100000,
+        "value": 0,
+        "label": "No-Link"
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "name": "5.13.1 Húsfeldolgozó \"panír\" (lépcső előtt)",
+    "points": [
+      {
+        "id": 1,
+        "value": 8.9,
+        "label": "Terem H",
+        "unit": "°C"
+      },
+      {
+        "id": 2,
+        "value": 1.2,
+        "label": "Lamella H",
+        "unit": "°C"
+      },
+      {
+        "value": 9,
+        "id": 6,
+        "editable": true,
+        "label": "Alapjel",
+        "unit": "°C"
+      },
+      {
+        "id": 22,
+        "value": 0,
+        "label": "Generic Digital Input"
+      },
+      {
+        "id": 24,
+        "value": 0,
+        "label": "Defrost"
+      },
+      {
+        "id": 28,
+        "value": 0,
+        "label": "Fan"
+      },
+      {
+        "id": 31,
+        "value": 0,
+        "label": "Cooling"
+      },
+      {
+        "id": 33,
+        "value": 1,
+        "label": "On"
+      },
+      {
+        "id": 34,
+        "value": 0,
+        "label": "Defrost"
+      },
+      {
+        "id": 44,
+        "value": 0,
+        "label": "High Value Pb1"
+      },
+      {
+        "id": 45,
+        "value": 0,
+        "label": "Low Value Pb1"
+      },
+      {
+        "id": 100000,
+        "value": 0,
+        "label": "No-Link"
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "name": "5.13.2 Húsfeldolgozó (\"panír\")",
+    "points": [
+      {
+        "id": 1,
+        "value": 8.7,
+        "label": "Terem H",
+        "unit": "°C"
+      },
+      {
+        "id": 2,
+        "value": 7.4,
+        "label": "Lamella H",
+        "unit": "°C"
+      },
+      {
+        "value": 8.5,
+        "id": 6,
+        "editable": true,
+        "label": "Alapjel",
+        "unit": "°C"
+      },
+      {
+        "id": 22,
+        "value": 0,
+        "label": "Generic Digital Input"
+      },
+      {
+        "id": 24,
+        "value": 0,
+        "label": "Defrost"
+      },
+      {
+        "id": 28,
+        "value": 0,
+        "label": "Fan"
+      },
+      {
+        "id": 31,
+        "value": 1,
+        "label": "Cooling"
+      },
+      {
+        "id": 33,
+        "value": 1,
+        "label": "On"
+      },
+      {
+        "id": 34,
+        "value": 0,
+        "label": "Defrost"
+      },
+      {
+        "id": 44,
+        "value": 0,
+        "label": "High Value Pb1"
+      },
+      {
+        "id": 45,
+        "value": 0,
+        "label": "Low Value Pb1"
+      },
+      {
+        "id": 100000,
+        "value": 0,
+        "label": "No-Link"
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "name": "6.7 Friss Hús (\"panír\") Hűtő",
+    "points": [
+      {
+        "id": 1,
+        "value": 1,
+        "label": "Terem H",
+        "unit": "°C"
+      },
+      {
+        "id": 2,
+        "value": 0.4,
+        "label": "Lamella H",
+        "unit": "°C"
+      },
+      {
+        "value": 1,
+        "id": 6,
+        "editable": true,
+        "label": "Alapjel",
+        "unit": "°C"
+      },
+      {
+        "id": 22,
+        "value": 0,
+        "label": "Generic Digital Input"
+      },
+      {
+        "id": 24,
+        "value": 0,
+        "label": "Defrost"
+      },
+      {
+        "id": 28,
+        "value": 1,
+        "label": "Fan"
+      },
+      {
+        "id": 31,
+        "value": 0,
+        "label": "Cooling"
+      },
+      {
+        "id": 33,
+        "value": 1,
+        "label": "On"
+      },
+      {
+        "id": 34,
+        "value": 0,
+        "label": "Defrost"
+      },
+      {
+        "id": 44,
+        "value": 0,
+        "label": "High Value Pb1"
+      },
+      {
+        "id": 45,
+        "value": 0,
+        "label": "Low Value Pb1"
+      },
+      {
+        "id": 100000,
+        "value": 0,
+        "label": "No-Link"
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "name": "6.8 Késélező folyosó hűtő",
+    "points": [
+      {
+        "id": 1,
+        "value": 8,
+        "label": "Terem H",
+        "unit": "°C"
+      },
+      {
+        "id": 2,
+        "value": 5.7,
+        "label": "Lamella H",
+        "unit": "°C"
+      },
+      {
+        "value": 8,
+        "id": 6,
+        "editable": true,
+        "label": "Alapjel",
+        "unit": "°C"
+      },
+      {
+        "id": 22,
+        "value": 0,
+        "label": "Generic Digital Input"
+      },
+      {
+        "id": 24,
+        "value": 0,
+        "label": "Defrost"
+      },
+      {
+        "id": 28,
+        "value": 1,
+        "label": "Fan"
+      },
+      {
+        "id": 31,
+        "value": 0,
+        "label": "Cooling"
+      },
+      {
+        "id": 33,
+        "value": 1,
+        "label": "On"
+      },
+      {
+        "id": 34,
+        "value": 0,
+        "label": "Defrost"
+      },
+      {
+        "id": 44,
+        "value": 0,
+        "label": "High Value Pb1"
+      },
+      {
+        "id": 45,
+        "value": 0,
+        "label": "Low Value Pb1"
+      },
+      {
+        "id": 100000,
+        "value": 0,
+        "label": "No-Link"
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "name": "5.11 Előkészítő hús, kispácoló (\"panír\")",
+    "points": [
+      {
+        "id": 1,
+        "value": null,
+        "label": "Terem H",
+        "unit": "°C"
+      },
+      {
+        "id": 2,
+        "value": null,
+        "label": "Lamella H",
+        "unit": "°C"
+      },
+      {
+        "value": null,
+        "id": 6,
+        "editable": true,
+        "label": "Alapjel",
+        "unit": "°C"
+      },
+      {
+        "id": 22,
+        "value": null,
+        "label": "Generic Digital Input"
+      },
+      {
+        "id": 24,
+        "value": null,
+        "label": "Defrost"
+      },
+      {
+        "id": 28,
+        "value": null,
+        "label": "Fan"
+      },
+      {
+        "id": 31,
+        "value": null,
+        "label": "Cooling"
+      },
+      {
+        "id": 33,
+        "value": null,
+        "label": "On"
+      },
+      {
+        "id": 34,
+        "value": null,
+        "label": "Defrost"
+      },
+      {
+        "id": 44,
+        "value": null,
+        "label": "High Value Pb1"
+      },
+      {
+        "id": 45,
+        "value": null,
+        "label": "Low Value Pb1"
+      },
+      {
+        "id": 100000,
+        "value": 1,
+        "label": "No-Link"
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "name": "5.12 Jelölő (\"Tálcás\") helyiség",
+    "points": [
+      {
+        "id": 1,
+        "value": 0,
+        "label": "Terem H",
+        "unit": "°C"
+      },
+      {
+        "id": 2,
+        "value": 0,
+        "label": "Lamella H",
+        "unit": "°C"
+      },
+      {
+        "value": 0,
+        "id": 6,
+        "editable": true,
+        "label": "Alapjel",
+        "unit": "°C"
+      },
+      {
+        "id": 22,
+        "value": 0,
+        "label": "Generic Digital Input"
+      },
+      {
+        "id": 24,
+        "value": 0,
+        "label": "Defrost"
+      },
+      {
+        "id": 28,
+        "value": 0,
+        "label": "Fan"
+      },
+      {
+        "id": 31,
+        "value": 0,
+        "label": "Cooling"
+      },
+      {
+        "id": 33,
+        "value": 0,
+        "label": "On"
+      },
+      {
+        "id": 34,
+        "value": 0,
+        "label": "Defrost"
+      },
+      {
+        "id": 44,
+        "value": 0,
+        "label": "High Value Pb1"
+      },
+      {
+        "id": 45,
+        "value": 0,
+        "label": "Low Value Pb1"
+      },
+      {
+        "id": 100000,
+        "value": 0,
+        "label": "No-Link"
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "name": "6.2 Szerves hulladék",
+    "points": [
+      {
+        "id": 1,
+        "value": 6.5,
+        "label": "Terem H",
+        "unit": "°C"
+      },
+      {
+        "id": 2,
+        "value": 3.9,
+        "label": "Lamella H",
+        "unit": "°C"
+      },
+      {
+        "value": 4,
+        "id": 6,
+        "editable": true,
+        "label": "Alapjel",
+        "unit": "°C"
+      },
+      {
+        "id": 22,
+        "value": 0,
+        "label": "Generic Digital Input"
+      },
+      {
+        "id": 24,
+        "value": 0,
+        "label": "Defrost"
+      },
+      {
+        "id": 28,
+        "value": 1,
+        "label": "Fan"
+      },
+      {
+        "id": 31,
+        "value": 1,
+        "label": "Cooling"
+      },
+      {
+        "id": 33,
+        "value": 1,
+        "label": "On"
+      },
+      {
+        "id": 34,
+        "value": 0,
+        "label": "Defrost"
+      },
+      {
+        "id": 44,
+        "value": 0,
+        "label": "High Value Pb1"
+      },
+      {
+        "id": 45,
+        "value": 0,
+        "label": "Low Value Pb1"
+      },
+      {
+        "id": 100000,
+        "value": 0,
+        "label": "No-Link"
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "name": "5.8 Daráló helyiség",
+    "points": [
+      {
+        "id": 1,
+        "value": 6.6,
+        "label": "Terem H",
+        "unit": "°C"
+      },
+      {
+        "id": 2,
+        "value": 5.9,
+        "label": "Lamella H",
+        "unit": "°C"
+      },
+      {
+        "value": 5,
+        "id": 6,
+        "editable": true,
+        "label": "Alapjel",
+        "unit": "°C"
+      },
+      {
+        "id": 22,
+        "value": 0,
+        "label": "Generic Digital Input"
+      },
+      {
+        "id": 24,
+        "value": 0,
+        "label": "Defrost"
+      },
+      {
+        "id": 28,
+        "value": 0,
+        "label": "Fan"
+      },
+      {
+        "id": 31,
+        "value": 1,
+        "label": "Cooling"
+      },
+      {
+        "id": 33,
+        "value": 1,
+        "label": "On"
+      },
+      {
+        "id": 34,
+        "value": 0,
+        "label": "Defrost"
+      },
+      {
+        "id": 44,
+        "value": 0,
+        "label": "High Value Pb1"
+      },
+      {
+        "id": 45,
+        "value": 0,
+        "label": "Low Value Pb1"
+      },
+      {
+        "id": 100000,
+        "value": 0,
+        "label": "No-Link"
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "name": "5.9 Rekesz feladó, ládamosó",
+    "points": [
+      {
+        "id": 1,
+        "value": 8.3,
+        "label": "Terem H",
+        "unit": "°C"
+      },
+      {
+        "id": 2,
+        "value": 8.1,
+        "label": "Lamella H",
+        "unit": "°C"
+      },
+      {
+        "value": 7,
+        "id": 6,
+        "editable": true,
+        "label": "Alapjel",
+        "unit": "°C"
+      },
+      {
+        "id": 22,
+        "value": 0,
+        "label": "Generic Digital Input"
+      },
+      {
+        "id": 24,
+        "value": 0,
+        "label": "Defrost"
+      },
+      {
+        "id": 28,
+        "value": 0,
+        "label": "Fan"
+      },
+      {
+        "id": 31,
+        "value": 1,
+        "label": "Cooling"
+      },
+      {
+        "id": 33,
+        "value": 1,
+        "label": "On"
+      },
+      {
+        "id": 34,
+        "value": 0,
+        "label": "Defrost"
+      },
+      {
+        "id": 44,
+        "value": 0,
+        "label": "High Value Pb1"
+      },
+      {
+        "id": 45,
+        "value": 0,
+        "label": "Low Value Pb1"
+      },
+      {
+        "id": 100000,
+        "value": 0,
+        "label": "No-Link"
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "name": "4.1 Defrosztáló",
+    "points": [
+      {
+        "id": 1,
+        "value": -0.5,
+        "label": "Terem H",
+        "unit": "°C"
+      },
+      {
+        "id": 2,
+        "value": -1,
+        "label": "Lamella H",
+        "unit": "°C"
+      },
+      {
+        "value": 4,
+        "id": 6,
+        "editable": true,
+        "label": "Alapjel",
+        "unit": "°C"
+      },
+      {
+        "id": 22,
+        "value": 0,
+        "label": "Generic Digital Input"
+      },
+      {
+        "id": 23,
+        "value": 0,
+        "label": "On/Off Out"
+      },
+      {
+        "id": 24,
+        "value": 0,
+        "label": "Defrost"
+      },
+      {
+        "id": 28,
+        "value": 1,
+        "label": "Fan"
+      },
+      {
+        "id": 31,
+        "value": 0,
+        "label": "Cooling"
+      },
+      {
+        "id": 33,
+        "value": 1,
+        "label": "On"
+      },
+      {
+        "id": 34,
+        "value": 0,
+        "label": "Defrost"
+      },
+      {
+        "id": 44,
+        "value": 0,
+        "label": "High Value Pb1"
+      },
+      {
+        "id": 45,
+        "value": 0,
+        "label": "Low Value Pb1"
+      },
+      {
+        "id": 100000,
+        "value": 0,
+        "label": "No-Link"
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "name": "6.1.1 Alapanyag fogadó (jobb)",
+    "points": [
+      {
+        "id": 1,
+        "value": 2.9,
+        "label": "Terem H",
+        "unit": "°C"
+      },
+      {
+        "id": 2,
+        "value": 2.1,
+        "label": "Lamella H",
+        "unit": "°C"
+      },
+      {
+        "value": 4,
+        "id": 6,
+        "editable": true,
+        "label": "Alapjel",
+        "unit": "°C"
+      },
+      {
+        "id": 22,
+        "value": 0,
+        "label": "Generic Digital Input"
+      },
+      {
+        "id": 24,
+        "value": 0,
+        "label": "Defrost"
+      },
+      {
+        "id": 28,
+        "value": 1,
+        "label": "Fan"
+      },
+      {
+        "id": 31,
+        "value": 0,
+        "label": "Cooling"
+      },
+      {
+        "id": 33,
+        "value": 1,
+        "label": "On"
+      },
+      {
+        "id": 34,
+        "value": 0,
+        "label": "Defrost"
+      },
+      {
+        "id": 44,
+        "value": 0,
+        "label": "High Value Pb1"
+      },
+      {
+        "id": 45,
+        "value": 0,
+        "label": "Low Value Pb1"
+      },
+      {
+        "id": 100000,
+        "value": 0,
+        "label": "No-Link"
+      }
+    ]
+  },
+  {
+    "id": 81,
+    "name": "6.1.2 Alapanyag fogadó (bal)",
+    "points": [
+      {
+        "id": 1,
+        "value": 4.3,
+        "label": "Terem H",
+        "unit": "°C"
+      },
+      {
+        "id": 2,
+        "value": 1.5,
+        "label": "Lamella H",
+        "unit": "°C"
+      },
+      {
+        "value": 4,
+        "id": 6,
+        "editable": true,
+        "label": "Alapjel",
+        "unit": "°C"
+      },
+      {
+        "id": 22,
+        "value": 0,
+        "label": "Generic Digital Input"
+      },
+      {
+        "id": 24,
+        "value": 0,
+        "label": "Defrost"
+      },
+      {
+        "id": 28,
+        "value": 1,
+        "label": "Fan"
+      },
+      {
+        "id": 31,
+        "value": 1,
+        "label": "Cooling"
+      },
+      {
+        "id": 33,
+        "value": 1,
+        "label": "On"
+      },
+      {
+        "id": 34,
+        "value": 0,
+        "label": "Defrost"
+      },
+      {
+        "id": 44,
+        "value": 0,
+        "label": "High Value Pb1"
+      },
+      {
+        "id": 45,
+        "value": 0,
+        "label": "Low Value Pb1"
+      },
+      {
+        "id": 100000,
+        "value": 0,
+        "label": "No-Link"
+      }
+    ]
+  },
+  {
+    "id": 100,
+    "name": "5.4.1 Címkéző és jelölő helyiség",
+    "points": [
+      {
+        "id": 1,
+        "value": 8.4,
+        "label": "Terem H",
+        "unit": "°C"
+      },
+      {
+        "id": 2,
+        "value": 5.1,
+        "label": "Lamella H",
+        "unit": "°C"
+      },
+      {
+        "value": 7,
+        "id": 6,
+        "editable": true,
+        "label": "Alapjel",
+        "unit": "°C"
+      },
+      {
+        "id": 22,
+        "value": 0,
+        "label": "Generic Digital Input"
+      },
+      {
+        "id": 24,
+        "value": 0,
+        "label": "Defrost"
+      },
+      {
+        "id": 28,
+        "value": 0,
+        "label": "Fan"
+      },
+      {
+        "id": 31,
+        "value": 1,
+        "label": "Cooling"
+      },
+      {
+        "id": 33,
+        "value": 1,
+        "label": "On"
+      },
+      {
+        "id": 34,
+        "value": 0,
+        "label": "Defrost"
+      },
+      {
+        "id": 44,
+        "value": 0,
+        "label": "High Value Pb1"
+      },
+      {
+        "id": 45,
+        "value": 0,
+        "label": "Low Value Pb1"
+      },
+      {
+        "id": 100000,
+        "value": 0,
+        "label": "No-Link"
+      }
+    ]
+  },
+  {
+    "id": 101,
+    "name": "5.4.2 Címkéző és jelölő helyiség",
+    "points": [
+      {
+        "id": 1,
+        "value": 7.9,
+        "label": "Terem H",
+        "unit": "°C"
+      },
+      {
+        "id": 2,
+        "value": 2.8,
+        "label": "Lamella H",
+        "unit": "°C"
+      },
+      {
+        "value": 8,
+        "id": 6,
+        "editable": true,
+        "label": "Alapjel",
+        "unit": "°C"
+      },
+      {
+        "id": 22,
+        "value": 0,
+        "label": "Generic Digital Input"
+      },
+      {
+        "id": 24,
+        "value": 0,
+        "label": "Defrost"
+      },
+      {
+        "id": 28,
+        "value": 0,
+        "label": "Fan"
+      },
+      {
+        "id": 31,
+        "value": 0,
+        "label": "Cooling"
+      },
+      {
+        "id": 33,
+        "value": 1,
+        "label": "On"
+      },
+      {
+        "id": 34,
+        "value": 0,
+        "label": "Defrost"
+      },
+      {
+        "id": 44,
+        "value": 0,
+        "label": "High Value Pb1"
+      },
+      {
+        "id": 45,
+        "value": 0,
+        "label": "Low Value Pb1"
+      },
+      {
+        "id": 100000,
+        "value": 0,
+        "label": "No-Link"
+      }
+    ]
+  },
+  {
+    "id": 102,
+    "name": "5.4.3 Címkéző és jelölő helyiség",
+    "points": [
+      {
+        "id": 1,
+        "value": 8.1,
+        "label": "Terem H",
+        "unit": "°C"
+      },
+      {
+        "id": 2,
+        "value": 1,
+        "label": "Lamella H",
+        "unit": "°C"
+      },
+      {
+        "value": 8,
+        "id": 6,
+        "editable": true,
+        "label": "Alapjel",
+        "unit": "°C"
+      },
+      {
+        "id": 22,
+        "value": 0,
+        "label": "Generic Digital Input"
+      },
+      {
+        "id": 24,
+        "value": 0,
+        "label": "Defrost"
+      },
+      {
+        "id": 28,
+        "value": 0,
+        "label": "Fan"
+      },
+      {
+        "id": 31,
+        "value": 0,
+        "label": "Cooling"
+      },
+      {
+        "id": 33,
+        "value": 1,
+        "label": "On"
+      },
+      {
+        "id": 34,
+        "value": 0,
+        "label": "Defrost"
+      },
+      {
+        "id": 44,
+        "value": 0,
+        "label": "High Value Pb1"
+      },
+      {
+        "id": 45,
+        "value": 0,
+        "label": "Low Value Pb1"
+      },
+      {
+        "id": 100000,
+        "value": 0,
+        "label": "No-Link"
+      }
+    ]
+  },
+  {
+    "id": 103,
+    "name": "4.9.2 Készáru hűtő (jobb)",
+    "points": [
+      {
+        "id": 1,
+        "value": 3,
+        "label": "Terem H",
+        "unit": "°C"
+      },
+      {
+        "id": 2,
+        "value": 1.8,
+        "label": "Lamella H",
+        "unit": "°C"
+      },
+      {
+        "value": 2,
+        "id": 6,
+        "editable": true,
+        "label": "Alapjel",
+        "unit": "°C"
+      },
+      {
+        "id": 22,
+        "value": 0,
+        "label": "Generic Digital Input"
+      },
+      {
+        "id": 24,
+        "value": 0,
+        "label": "Defrost"
+      },
+      {
+        "id": 28,
+        "value": 1,
+        "label": "Fan"
+      },
+      {
+        "id": 31,
+        "value": 1,
+        "label": "Cooling"
+      },
+      {
+        "id": 33,
+        "value": 1,
+        "label": "On"
+      },
+      {
+        "id": 34,
+        "value": 0,
+        "label": "Defrost"
+      },
+      {
+        "id": 44,
+        "value": 0,
+        "label": "High Value Pb1"
+      },
+      {
+        "id": 45,
+        "value": 0,
+        "label": "Low Value Pb1"
+      },
+      {
+        "id": 100000,
+        "value": 0,
+        "label": "No-Link"
+      }
+    ]
+  },
+  {
+    "id": 104,
+    "name": "5.6 Szeletelő (ablakoknál)",
+    "points": [
+      {
+        "id": 1,
+        "value": 11,
+        "label": "Terem H",
+        "unit": "°C"
+      },
+      {
+        "id": 2,
+        "value": 6.6,
+        "label": "Lamella H",
+        "unit": "°C"
+      },
+      {
+        "value": 9,
+        "id": 6,
+        "editable": true,
+        "label": "Alapjel",
+        "unit": "°C"
+      },
+      {
+        "id": 22,
+        "value": 0,
+        "label": "Generic Digital Input"
+      },
+      {
+        "id": 24,
+        "value": 0,
+        "label": "Defrost"
+      },
+      {
+        "id": 28,
+        "value": 0,
+        "label": "Fan"
+      },
+      {
+        "id": 31,
+        "value": 1,
+        "label": "Cooling"
+      },
+      {
+        "id": 33,
+        "value": 1,
+        "label": "On"
+      },
+      {
+        "id": 34,
+        "value": 0,
+        "label": "Defrost"
+      },
+      {
+        "id": 44,
+        "value": 0,
+        "label": "High Value Pb1"
+      },
+      {
+        "id": 45,
+        "value": 0,
+        "label": "Low Value Pb1"
+      },
+      {
+        "id": 100000,
+        "value": 0,
+        "label": "No-Link"
+      }
+    ]
+  },
+  {
+    "id": 105,
+    "name": "4.9.1 Készáru hűtő (bal)",
+    "points": [
+      {
+        "id": 1,
+        "value": 2.6,
+        "label": "Terem H",
+        "unit": "°C"
+      },
+      {
+        "id": 2,
+        "value": 1.9,
+        "label": "Lamella H",
+        "unit": "°C"
+      },
+      {
+        "value": 1,
+        "id": 6,
+        "editable": true,
+        "label": "Alapjel",
+        "unit": "°C"
+      },
+      {
+        "id": 22,
+        "value": 0,
+        "label": "Generic Digital Input"
+      },
+      {
+        "id": 24,
+        "value": 0,
+        "label": "Defrost"
+      },
+      {
+        "id": 28,
+        "value": 1,
+        "label": "Fan"
+      },
+      {
+        "id": 31,
+        "value": 1,
+        "label": "Cooling"
+      },
+      {
+        "id": 33,
+        "value": 1,
+        "label": "On"
+      },
+      {
+        "id": 34,
+        "value": 0,
+        "label": "Defrost"
+      },
+      {
+        "id": 44,
+        "value": 0,
+        "label": "High Value Pb1"
+      },
+      {
+        "id": 45,
+        "value": 0,
+        "label": "Low Value Pb1"
+      },
+      {
+        "id": 100000,
+        "value": 0,
+        "label": "No-Link"
+      }
+    ]
+  },
+  {
+    "id": 107,
+    "name": "3.1.1 Fagyos alapanyag hűtő (bal)",
+    "points": [
+      {
+        "id": 1,
+        "value": -18.3,
+        "label": "Terem H",
+        "unit": "°C"
+      },
+      {
+        "id": 2,
+        "value": -24.1,
+        "label": "Lamella H",
+        "unit": "°C"
+      },
+      {
+        "id": 5,
+        "value": -41.5,
+        "label": "Probe 5",
+        "unit": "°C"
+      },
+      {
+        "id": 14,
+        "value": 19.8,
+        "label": "Superheating Value",
+        "unit": "°C"
+      },
+      {
+        "id": 18,
+        "value": 0,
+        "label": "Analog Output %",
+        "unit": "%"
+      },
+      {
+        "id": 24,
+        "value": 9,
+        "label": "Valve Output %",
+        "unit": "%"
+      },
+      {
+        "id": 26,
+        "value": 0,
+        "label": "Min valve %",
+        "unit": "%"
+      },
+      {
+        "id": 27,
+        "value": 10,
+        "label": "Max valve %",
+        "unit": "%"
+      },
+      {
+        "id": 29,
+        "value": 0,
+        "label": "Average SH",
+        "unit": "°C"
+      },
+      {
+        "id": 30,
+        "value": 0,
+        "label": "Autoadaptive SH",
+        "unit": "°C"
+      },
+      {
+        "value": -21,
+        "id": 36,
+        "editable": true,
+        "label": "Alapjel",
+        "unit": "°C"
+      },
+      {
+        "value": 8,
+        "id": 38,
+        "editable": true,
+        "label": "Supervisor SH Regulation Set",
+        "unit": "°C"
+      },
+      {
+        "id": 40,
+        "value": 1,
+        "label": "On Off"
+      },
+      {
+        "id": 62,
+        "value": 0,
+        "label": "Defrost On"
+      },
+      {
+        "id": 76,
+        "value": 0,
+        "label": "SHOptimization"
+      },
+      {
+        "id": 77,
+        "value": 0,
+        "label": "StopCoolingStatus"
+      },
+      {
+        "id": 78,
+        "value": 0,
+        "label": "1st Digital Input Status"
+      },
+      {
+        "id": 80,
+        "value": 0,
+        "label": "3rd Digital Input Status"
+      },
+      {
+        "id": 98,
+        "value": 1,
+        "label": "Compressor 1"
+      },
+      {
+        "id": 99,
+        "value": 0,
+        "label": "Compressor 2"
+      },
+      {
+        "id": 101,
+        "value": 1,
+        "label": "Fans"
+      },
+      {
+        "id": 102,
+        "value": 0,
+        "label": "Alarm"
+      },
+      {
+        "id": 103,
+        "value": 0,
+        "label": "Light"
+      },
+      {
+        "id": 108,
+        "value": 0,
+        "label": "Probe 1 Alarm"
+      },
+      {
+        "id": 109,
+        "value": 0,
+        "label": "Probe 2 Alarm"
+      },
+      {
+        "id": 110,
+        "value": 0,
+        "label": "Probe 3 Alarm"
+      },
+      {
+        "id": 120,
+        "value": 0,
+        "label": "EAL Alarm"
+      },
+      {
+        "id": 121,
+        "value": 0,
+        "label": "CA Alarm"
+      },
+      {
+        "id": 122,
+        "value": 0,
+        "label": "PA Alarm"
+      },
+      {
+        "id": 123,
+        "value": 0,
+        "label": "dA Alarm"
+      },
+      {
+        "id": 124,
+        "value": 0,
+        "label": "CP1 Alarm"
+      },
+      {
+        "id": 125,
+        "value": 0,
+        "label": "CP2 Alarm"
+      },
+      {
+        "id": 126,
+        "value": 0,
+        "label": "rtF Alarm"
+      },
+      {
+        "id": 127,
+        "value": 0,
+        "label": "rtc Alarm"
+      },
+      {
+        "id": 128,
+        "value": 0,
+        "label": "EE Alarm"
+      },
+      {
+        "id": 129,
+        "value": 0,
+        "label": "LSH Alarm"
+      },
+      {
+        "id": 130,
+        "value": 0,
+        "label": "HSH Alarm"
+      },
+      {
+        "id": 131,
+        "value": 0,
+        "label": "MOP Alarm"
+      },
+      {
+        "id": 132,
+        "value": 0,
+        "label": "LOP Alarm"
+      },
+      {
+        "id": 8010,
+        "value": -22,
+        "label": "Túlhevítés",
+        "unit": "°C"
+      },
+      {
+        "id": 8051,
+        "value": 0,
+        "label": "Average SH",
+        "unit": "°C"
+      },
+      {
+        "id": 8053,
+        "value": 0,
+        "label": "Autoadaptive SH",
+        "unit": "°C"
+      },
+      {
+        "value": 8,
+        "id": 8061,
+        "editable": true,
+        "label": "Supervisor SH Regulation Set",
+        "unit": "°C"
+      },
+      {
+        "id": 100000,
+        "value": 0,
+        "label": "No-Link"
+      }
+    ]
+  },
+  {
+    "id": 108,
+    "name": "3.1.2 Fagyos alapanyag hűtő (közép)",
+    "points": [
+      {
+        "id": 1,
+        "value": -17.7,
+        "label": "Terem H",
+        "unit": "°C"
+      },
+      {
+        "id": 2,
+        "value": -15.3,
+        "label": "Lamella H",
+        "unit": "°C"
+      },
+      {
+        "id": 5,
+        "value": -40.9,
+        "label": "Probe 5",
+        "unit": "°C"
+      },
+      {
+        "id": 14,
+        "value": 19.5,
+        "label": "Superheating Value",
+        "unit": "°C"
+      },
+      {
+        "id": 18,
+        "value": 0,
+        "label": "Analog Output %",
+        "unit": "%"
+      },
+      {
+        "id": 20,
+        "value": -25.2,
+        "label": "Min Temp",
+        "unit": "°C"
+      },
+      {
+        "id": 24,
+        "value": 59.5,
+        "label": "Valve Output %",
+        "unit": "%"
+      },
+      {
+        "id": 26,
+        "value": 50,
+        "label": "Min valve %",
+        "unit": "%"
+      },
+      {
+        "id": 27,
+        "value": 60,
+        "label": "Max valve %",
+        "unit": "%"
+      },
+      {
+        "id": 29,
+        "value": 0,
+        "label": "Average SH",
+        "unit": "°C"
+      },
+      {
+        "id": 30,
+        "value": 0,
+        "label": "Autoadaptive SH",
+        "unit": "°C"
+      },
+      {
+        "value": -21,
+        "id": 36,
+        "editable": true,
+        "label": "Alapjel",
+        "unit": "°C"
+      },
+      {
+        "value": 8,
+        "id": 38,
+        "editable": true,
+        "label": "Supervisor SH Regulation Set",
+        "unit": "°C"
+      },
+      {
+        "id": 40,
+        "value": 1,
+        "label": "On Off"
+      },
+      {
+        "id": 62,
+        "value": 0,
+        "label": "Defrost On"
+      },
+      {
+        "id": 76,
+        "value": 0,
+        "label": "SHOptimization"
+      },
+      {
+        "id": 77,
+        "value": 0,
+        "label": "StopCoolingStatus"
+      },
+      {
+        "id": 78,
+        "value": 0,
+        "label": "1st Digital Input Status"
+      },
+      {
+        "id": 80,
+        "value": 0,
+        "label": "3rd Digital Input Status"
+      },
+      {
+        "id": 98,
+        "value": 1,
+        "label": "Compressor 1"
+      },
+      {
+        "id": 99,
+        "value": 0,
+        "label": "Compressor 2"
+      },
+      {
+        "id": 101,
+        "value": 1,
+        "label": "Fans"
+      },
+      {
+        "id": 102,
+        "value": 0,
+        "label": "Alarm"
+      },
+      {
+        "id": 103,
+        "value": 0,
+        "label": "Light"
+      },
+      {
+        "id": 108,
+        "value": 0,
+        "label": "Probe 1 Alarm"
+      },
+      {
+        "id": 109,
+        "value": 0,
+        "label": "Probe 2 Alarm"
+      },
+      {
+        "id": 110,
+        "value": 0,
+        "label": "Probe 3 Alarm"
+      },
+      {
+        "id": 120,
+        "value": 0,
+        "label": "EAL Alarm"
+      },
+      {
+        "id": 121,
+        "value": 0,
+        "label": "CA Alarm"
+      },
+      {
+        "id": 122,
+        "value": 0,
+        "label": "PA Alarm"
+      },
+      {
+        "id": 123,
+        "value": 0,
+        "label": "dA Alarm"
+      },
+      {
+        "id": 124,
+        "value": 0,
+        "label": "CP1 Alarm"
+      },
+      {
+        "id": 125,
+        "value": 0,
+        "label": "CP2 Alarm"
+      },
+      {
+        "id": 126,
+        "value": 0,
+        "label": "rtF Alarm"
+      },
+      {
+        "id": 127,
+        "value": 0,
+        "label": "rtc Alarm"
+      },
+      {
+        "id": 128,
+        "value": 0,
+        "label": "EE Alarm"
+      },
+      {
+        "id": 129,
+        "value": 0,
+        "label": "LSH Alarm"
+      },
+      {
+        "id": 130,
+        "value": 0,
+        "label": "HSH Alarm"
+      },
+      {
+        "id": 131,
+        "value": 0,
+        "label": "MOP Alarm"
+      },
+      {
+        "id": 132,
+        "value": 0,
+        "label": "LOP Alarm"
+      },
+      {
+        "id": 8010,
+        "value": -21,
+        "label": "Túlhevítés",
+        "unit": "°C"
+      },
+      {
+        "id": 8051,
+        "value": 0,
+        "label": "Average SH",
+        "unit": "°C"
+      },
+      {
+        "id": 8053,
+        "value": 0,
+        "label": "Autoadaptive SH",
+        "unit": "°C"
+      },
+      {
+        "value": 8,
+        "id": 8061,
+        "editable": true,
+        "label": "Supervisor SH Regulation Set",
+        "unit": "°C"
+      },
+      {
+        "id": 100000,
+        "value": 0,
+        "label": "No-Link"
+      }
+    ]
+  },
+  {
+    "id": 109,
+    "name": "3.1.3 Fagyos alapanyag hűtő (jobb)",
+    "points": [
+      {
+        "id": 1,
+        "value": -20.7,
+        "label": "Terem H",
+        "unit": "°C"
+      },
+      {
+        "id": 2,
+        "value": -24.3,
+        "label": "Lamella H",
+        "unit": "°C"
+      },
+      {
+        "id": 5,
+        "value": -41.3,
+        "label": "Probe 5",
+        "unit": "°C"
+      },
+      {
+        "id": 14,
+        "value": 19.7,
+        "label": "Superheating Value",
+        "unit": "°C"
+      },
+      {
+        "id": 18,
+        "value": 0,
+        "label": "Analog Output %",
+        "unit": "%"
+      },
+      {
+        "id": 20,
+        "value": -25,
+        "label": "Min Temp",
+        "unit": "°C"
+      },
+      {
+        "id": 24,
+        "value": 100,
+        "label": "Valve Output %",
+        "unit": "%"
+      },
+      {
+        "id": 26,
+        "value": 90,
+        "label": "Min valve %",
+        "unit": "%"
+      },
+      {
+        "id": 27,
+        "value": 100,
+        "label": "Max valve %",
+        "unit": "%"
+      },
+      {
+        "id": 29,
+        "value": 0,
+        "label": "Average SH",
+        "unit": "°C"
+      },
+      {
+        "id": 30,
+        "value": 0,
+        "label": "Autoadaptive SH",
+        "unit": "°C"
+      },
+      {
+        "value": -21,
+        "id": 36,
+        "editable": true,
+        "label": "Alapjel",
+        "unit": "°C"
+      },
+      {
+        "value": 6,
+        "id": 38,
+        "editable": true,
+        "label": "Supervisor SH Regulation Set",
+        "unit": "°C"
+      },
+      {
+        "id": 40,
+        "value": 1,
+        "label": "On Off"
+      },
+      {
+        "id": 62,
+        "value": 0,
+        "label": "Defrost On"
+      },
+      {
+        "id": 76,
+        "value": 0,
+        "label": "SHOptimization"
+      },
+      {
+        "id": 77,
+        "value": 0,
+        "label": "StopCoolingStatus"
+      },
+      {
+        "id": 78,
+        "value": 0,
+        "label": "1st Digital Input Status"
+      },
+      {
+        "id": 80,
+        "value": 0,
+        "label": "3rd Digital Input Status"
+      },
+      {
+        "id": 98,
+        "value": 1,
+        "label": "Compressor 1"
+      },
+      {
+        "id": 99,
+        "value": 0,
+        "label": "Compressor 2"
+      },
+      {
+        "id": 101,
+        "value": 1,
+        "label": "Fans"
+      },
+      {
+        "id": 102,
+        "value": 0,
+        "label": "Alarm"
+      },
+      {
+        "id": 103,
+        "value": 0,
+        "label": "Light"
+      },
+      {
+        "id": 108,
+        "value": 0,
+        "label": "Probe 1 Alarm"
+      },
+      {
+        "id": 109,
+        "value": 0,
+        "label": "Probe 2 Alarm"
+      },
+      {
+        "id": 110,
+        "value": 0,
+        "label": "Probe 3 Alarm"
+      },
+      {
+        "id": 120,
+        "value": 0,
+        "label": "EAL Alarm"
+      },
+      {
+        "id": 121,
+        "value": 0,
+        "label": "CA Alarm"
+      },
+      {
+        "id": 122,
+        "value": 0,
+        "label": "PA Alarm"
+      },
+      {
+        "id": 123,
+        "value": 0,
+        "label": "dA Alarm"
+      },
+      {
+        "id": 124,
+        "value": 0,
+        "label": "CP1 Alarm"
+      },
+      {
+        "id": 125,
+        "value": 0,
+        "label": "CP2 Alarm"
+      },
+      {
+        "id": 126,
+        "value": 0,
+        "label": "rtF Alarm"
+      },
+      {
+        "id": 127,
+        "value": 0,
+        "label": "rtc Alarm"
+      },
+      {
+        "id": 128,
+        "value": 0,
+        "label": "EE Alarm"
+      },
+      {
+        "id": 129,
+        "value": 0,
+        "label": "LSH Alarm"
+      },
+      {
+        "id": 131,
+        "value": 0,
+        "label": "MOP Alarm"
+      },
+      {
+        "id": 132,
+        "value": 0,
+        "label": "LOP Alarm"
+      },
+      {
+        "id": 8010,
+        "value": -22,
+        "label": "Túlhevítés",
+        "unit": "°C"
+      },
+      {
+        "id": 8051,
+        "value": 0,
+        "label": "Average SH",
+        "unit": "°C"
+      },
+      {
+        "id": 8053,
+        "value": 0,
+        "label": "Autoadaptive SH",
+        "unit": "°C"
+      },
+      {
+        "value": 6,
+        "id": 8061,
+        "editable": true,
+        "label": "Supervisor SH Regulation Set",
+        "unit": "°C"
+      },
+      {
+        "id": 100000,
+        "value": 0,
+        "label": "No-Link"
+      }
+    ]
+  },
+  {
+    "id": 110,
+    "name": "3.2 Sokkoló (új)",
+    "points": [
+      {
+        "id": 1,
+        "value": null,
+        "label": "Terem H",
+        "unit": "°C"
+      },
+      {
+        "id": 2,
+        "value": null,
+        "label": "Lamella H",
+        "unit": "°C"
+      },
+      {
+        "id": 5,
+        "value": null,
+        "label": "Probe 5",
+        "unit": "°C"
+      },
+      {
+        "id": 14,
+        "value": null,
+        "label": "Superheating Value",
+        "unit": "°C"
+      },
+      {
+        "id": 20,
+        "value": null,
+        "label": "Min Temp",
+        "unit": "°C"
+      },
+      {
+        "id": 29,
+        "value": null,
+        "label": "Average SH",
+        "unit": "°C"
+      },
+      {
+        "id": 30,
+        "value": null,
+        "label": "Autoadaptive SH",
+        "unit": "°C"
+      },
+      {
+        "value": null,
+        "id": 36,
+        "editable": true,
+        "label": "Alapjel",
+        "unit": "°C"
+      },
+      {
+        "value": null,
+        "id": 38,
+        "editable": true,
+        "label": "Supervisor SH Regulation Set",
+        "unit": "°C"
+      },
+      {
+        "id": 40,
+        "value": null,
+        "label": "On Off"
+      },
+      {
+        "id": 62,
+        "value": null,
+        "label": "Defrost On"
+      },
+      {
+        "id": 76,
+        "value": null,
+        "label": "SHOptimization"
+      },
+      {
+        "id": 77,
+        "value": null,
+        "label": "StopCoolingStatus"
+      },
+      {
+        "id": 78,
+        "value": null,
+        "label": "1st Digital Input Status"
+      },
+      {
+        "id": 98,
+        "value": null,
+        "label": "Compressor 1"
+      },
+      {
+        "id": 99,
+        "value": null,
+        "label": "Compressor 2"
+      },
+      {
+        "id": 101,
+        "value": null,
+        "label": "Fans"
+      },
+      {
+        "id": 102,
+        "value": null,
+        "label": "Alarm"
+      },
+      {
+        "id": 103,
+        "value": null,
+        "label": "Light"
+      },
+      {
+        "id": 108,
+        "value": null,
+        "label": "Probe 1 Alarm"
+      },
+      {
+        "id": 109,
+        "value": null,
+        "label": "Probe 2 Alarm"
+      },
+      {
+        "id": 110,
+        "value": null,
+        "label": "Probe 3 Alarm"
+      },
+      {
+        "id": 120,
+        "value": null,
+        "label": "EAL Alarm"
+      },
+      {
+        "id": 121,
+        "value": null,
+        "label": "CA Alarm"
+      },
+      {
+        "id": 122,
+        "value": null,
+        "label": "PA Alarm"
+      },
+      {
+        "id": 123,
+        "value": null,
+        "label": "dA Alarm"
+      },
+      {
+        "id": 124,
+        "value": null,
+        "label": "CP1 Alarm"
+      },
+      {
+        "id": 125,
+        "value": null,
+        "label": "CP2 Alarm"
+      },
+      {
+        "id": 126,
+        "value": null,
+        "label": "rtF Alarm"
+      },
+      {
+        "id": 127,
+        "value": null,
+        "label": "rtc Alarm"
+      },
+      {
+        "id": 128,
+        "value": null,
+        "label": "EE Alarm"
+      },
+      {
+        "id": 129,
+        "value": null,
+        "label": "LSH Alarm"
+      },
+      {
+        "id": 130,
+        "value": null,
+        "label": "HSH Alarm"
+      },
+      {
+        "id": 131,
+        "value": null,
+        "label": "MOP Alarm"
+      },
+      {
+        "id": 132,
+        "value": null,
+        "label": "LOP Alarm"
+      },
+      {
+        "id": 8010,
+        "value": null,
+        "label": "Túlhevítés",
+        "unit": "°C"
+      },
+      {
+        "id": 8051,
+        "value": null,
+        "label": "Average SH",
+        "unit": "°C"
+      },
+      {
+        "id": 8053,
+        "value": null,
+        "label": "Autoadaptive SH",
+        "unit": "°C"
+      },
+      {
+        "value": null,
+        "id": 8061,
+        "editable": true,
+        "label": "Supervisor SH Regulation Set",
+        "unit": "°C"
+      },
+      {
+        "id": 100000,
+        "value": 1,
+        "label": "No-Link"
+      }
+    ]
+  },
+  {
+    "id": 111,
+    "name": "3.3 Sokkoló (régi)",
+    "points": [
+      {
+        "id": 1,
+        "value": -20.9,
+        "label": "Terem H",
+        "unit": "°C"
+      },
+      {
+        "id": 2,
+        "value": -26.7,
+        "label": "Lamella H",
+        "unit": "°C"
+      },
+      {
+        "id": 5,
+        "value": -40.5,
+        "label": "Probe 5",
+        "unit": "°C"
+      },
+      {
+        "id": 14,
+        "value": 16.2,
+        "label": "Superheating Value",
+        "unit": "°C"
+      },
+      {
+        "id": 18,
+        "value": 0,
+        "label": "Analog Output %",
+        "unit": "%"
+      },
+      {
+        "id": 20,
+        "value": -32.9,
+        "label": "Min Temp",
+        "unit": "°C"
+      },
+      {
+        "id": 24,
+        "value": 55,
+        "label": "Valve Output %",
+        "unit": "%"
+      },
+      {
+        "id": 26,
+        "value": 46,
+        "label": "Min valve %",
+        "unit": "%"
+      },
+      {
+        "id": 27,
+        "value": 55,
+        "label": "Max valve %",
+        "unit": "%"
+      },
+      {
+        "id": 29,
+        "value": 0,
+        "label": "Average SH",
+        "unit": "°C"
+      },
+      {
+        "id": 30,
+        "value": 0,
+        "label": "Autoadaptive SH",
+        "unit": "°C"
+      },
+      {
+        "value": -30,
+        "id": 36,
+        "editable": true,
+        "label": "Alapjel",
+        "unit": "°C"
+      },
+      {
+        "value": 6,
+        "id": 38,
+        "editable": true,
+        "label": "Supervisor SH Regulation Set",
+        "unit": "°C"
+      },
+      {
+        "id": 40,
+        "value": 1,
+        "label": "On Off"
+      },
+      {
+        "id": 62,
+        "value": 0,
+        "label": "Defrost On"
+      },
+      {
+        "id": 76,
+        "value": 0,
+        "label": "SHOptimization"
+      },
+      {
+        "id": 77,
+        "value": 0,
+        "label": "StopCoolingStatus"
+      },
+      {
+        "id": 78,
+        "value": 0,
+        "label": "1st Digital Input Status"
+      },
+      {
+        "id": 80,
+        "value": 0,
+        "label": "3rd Digital Input Status"
+      },
+      {
+        "id": 98,
+        "value": 1,
+        "label": "Compressor 1"
+      },
+      {
+        "id": 99,
+        "value": 0,
+        "label": "Compressor 2"
+      },
+      {
+        "id": 101,
+        "value": 1,
+        "label": "Fans"
+      },
+      {
+        "id": 102,
+        "value": 0,
+        "label": "Alarm"
+      },
+      {
+        "id": 103,
+        "value": 0,
+        "label": "Light"
+      },
+      {
+        "id": 108,
+        "value": 0,
+        "label": "Probe 1 Alarm"
+      },
+      {
+        "id": 109,
+        "value": 0,
+        "label": "Probe 2 Alarm"
+      },
+      {
+        "id": 110,
+        "value": 0,
+        "label": "Probe 3 Alarm"
+      },
+      {
+        "id": 120,
+        "value": 0,
+        "label": "EAL Alarm"
+      },
+      {
+        "id": 121,
+        "value": 0,
+        "label": "CA Alarm"
+      },
+      {
+        "id": 122,
+        "value": 0,
+        "label": "PA Alarm"
+      },
+      {
+        "id": 123,
+        "value": 0,
+        "label": "dA Alarm"
+      },
+      {
+        "id": 124,
+        "value": 0,
+        "label": "CP1 Alarm"
+      },
+      {
+        "id": 125,
+        "value": 0,
+        "label": "CP2 Alarm"
+      },
+      {
+        "id": 126,
+        "value": 0,
+        "label": "rtF Alarm"
+      },
+      {
+        "id": 127,
+        "value": 0,
+        "label": "rtc Alarm"
+      },
+      {
+        "id": 128,
+        "value": 0,
+        "label": "EE Alarm"
+      },
+      {
+        "id": 129,
+        "value": 0,
+        "label": "LSH Alarm"
+      },
+      {
+        "id": 130,
+        "value": 1,
+        "label": "HSH Alarm"
+      },
+      {
+        "id": 131,
+        "value": 0,
+        "label": "MOP Alarm"
+      },
+      {
+        "id": 132,
+        "value": 0,
+        "label": "LOP Alarm"
+      },
+      {
+        "id": 8010,
+        "value": -24,
+        "label": "Túlhevítés",
+        "unit": "°C"
+      },
+      {
+        "id": 8051,
+        "value": 0,
+        "label": "Average SH",
+        "unit": "°C"
+      },
+      {
+        "id": 8053,
+        "value": 0,
+        "label": "Autoadaptive SH",
+        "unit": "°C"
+      },
+      {
+        "value": 6,
+        "id": 8061,
+        "editable": true,
+        "label": "Supervisor SH Regulation Set",
+        "unit": "°C"
+      },
+      {
+        "id": 100000,
+        "value": 0,
+        "label": "No-Link"
+      }
+    ]
+  },
+  {
+    "id": 112,
+    "name": "3.4.1 Készáru fagyasztó (jobb)",
+    "points": [
+      {
+        "id": 1,
+        "value": -21.1,
+        "label": "Terem H",
+        "unit": "°C"
+      },
+      {
+        "id": 2,
+        "value": -24.2,
+        "label": "Lamella H",
+        "unit": "°C"
+      },
+      {
+        "id": 5,
+        "value": -40.9,
+        "label": "Probe 5",
+        "unit": "°C"
+      },
+      {
+        "id": 14,
+        "value": 16,
+        "label": "Superheating Value",
+        "unit": "°C"
+      },
+      {
+        "id": 18,
+        "value": 0,
+        "label": "Analog Output %",
+        "unit": "%"
+      },
+      {
+        "id": 20,
+        "value": -27.8,
+        "label": "Min Temp",
+        "unit": "°C"
+      },
+      {
+        "id": 24,
+        "value": 0,
+        "label": "Valve Output %",
+        "unit": "%"
+      },
+      {
+        "id": 26,
+        "value": 90,
+        "label": "Min valve %",
+        "unit": "%"
+      },
+      {
+        "id": 27,
+        "value": 100,
+        "label": "Max valve %",
+        "unit": "%"
+      },
+      {
+        "id": 29,
+        "value": 0,
+        "label": "Average SH",
+        "unit": "°C"
+      },
+      {
+        "id": 30,
+        "value": 0,
+        "label": "Autoadaptive SH",
+        "unit": "°C"
+      },
+      {
+        "value": -21,
+        "id": 36,
+        "editable": true,
+        "label": "Alapjel",
+        "unit": "°C"
+      },
+      {
+        "value": 6,
+        "id": 38,
+        "editable": true,
+        "label": "Supervisor SH Regulation Set",
+        "unit": "°C"
+      },
+      {
+        "id": 40,
+        "value": 1,
+        "label": "On Off"
+      },
+      {
+        "id": 62,
+        "value": 0,
+        "label": "Defrost On"
+      },
+      {
+        "id": 76,
+        "value": 0,
+        "label": "SHOptimization"
+      },
+      {
+        "id": 77,
+        "value": 0,
+        "label": "StopCoolingStatus"
+      },
+      {
+        "id": 78,
+        "value": 0,
+        "label": "1st Digital Input Status"
+      },
+      {
+        "id": 80,
+        "value": 0,
+        "label": "3rd Digital Input Status"
+      },
+      {
+        "id": 98,
+        "value": 0,
+        "label": "Compressor 1"
+      },
+      {
+        "id": 99,
+        "value": 0,
+        "label": "Compressor 2"
+      },
+      {
+        "id": 101,
+        "value": 1,
+        "label": "Fans"
+      },
+      {
+        "id": 102,
+        "value": 0,
+        "label": "Alarm"
+      },
+      {
+        "id": 103,
+        "value": 0,
+        "label": "Light"
+      },
+      {
+        "id": 108,
+        "value": 0,
+        "label": "Probe 1 Alarm"
+      },
+      {
+        "id": 109,
+        "value": 0,
+        "label": "Probe 2 Alarm"
+      },
+      {
+        "id": 110,
+        "value": 0,
+        "label": "Probe 3 Alarm"
+      },
+      {
+        "id": 120,
+        "value": 0,
+        "label": "EAL Alarm"
+      },
+      {
+        "id": 121,
+        "value": 0,
+        "label": "CA Alarm"
+      },
+      {
+        "id": 122,
+        "value": 0,
+        "label": "PA Alarm"
+      },
+      {
+        "id": 123,
+        "value": 0,
+        "label": "dA Alarm"
+      },
+      {
+        "id": 124,
+        "value": 0,
+        "label": "CP1 Alarm"
+      },
+      {
+        "id": 125,
+        "value": 0,
+        "label": "CP2 Alarm"
+      },
+      {
+        "id": 126,
+        "value": 0,
+        "label": "rtF Alarm"
+      },
+      {
+        "id": 127,
+        "value": 0,
+        "label": "rtc Alarm"
+      },
+      {
+        "id": 128,
+        "value": 0,
+        "label": "EE Alarm"
+      },
+      {
+        "id": 129,
+        "value": 0,
+        "label": "LSH Alarm"
+      },
+      {
+        "id": 130,
+        "value": 0,
+        "label": "HSH Alarm"
+      },
+      {
+        "id": 131,
+        "value": 0,
+        "label": "MOP Alarm"
+      },
+      {
+        "id": 132,
+        "value": 0,
+        "label": "LOP Alarm"
+      },
+      {
+        "id": 8010,
+        "value": -25,
+        "label": "Túlhevítés",
+        "unit": "°C"
+      },
+      {
+        "id": 8051,
+        "value": 0,
+        "label": "Average SH",
+        "unit": "°C"
+      },
+      {
+        "id": 8053,
+        "value": 0,
+        "label": "Autoadaptive SH",
+        "unit": "°C"
+      },
+      {
+        "value": 6,
+        "id": 8061,
+        "editable": true,
+        "label": "Supervisor SH Regulation Set",
+        "unit": "°C"
+      },
+      {
+        "id": 100000,
+        "value": 0,
+        "label": "No-Link"
+      }
+    ]
+  },
+  {
+    "id": 113,
+    "name": "3.4.2 Készáru fagyasztó (bal)",
+    "points": [
+      {
+        "id": 1,
+        "value": -21.5,
+        "label": "Terem H",
+        "unit": "°C"
+      },
+      {
+        "id": 2,
+        "value": -19.8,
+        "label": "Lamella H",
+        "unit": "°C"
+      },
+      {
+        "id": 5,
+        "value": -39.2,
+        "label": "Probe 5",
+        "unit": "°C"
+      },
+      {
+        "id": 14,
+        "value": 17.5,
+        "label": "Superheating Value",
+        "unit": "°C"
+      },
+      {
+        "id": 18,
+        "value": 0,
+        "label": "Analog Output %",
+        "unit": "%"
+      },
+      {
+        "id": 20,
+        "value": -28,
+        "label": "Min Temp",
+        "unit": "°C"
+      },
+      {
+        "id": 24,
+        "value": 0,
+        "label": "Valve Output %",
+        "unit": "%"
+      },
+      {
+        "id": 26,
+        "value": 90,
+        "label": "Min valve %",
+        "unit": "%"
+      },
+      {
+        "id": 27,
+        "value": 100,
+        "label": "Max valve %",
+        "unit": "%"
+      },
+      {
+        "id": 29,
+        "value": 0,
+        "label": "Average SH",
+        "unit": "°C"
+      },
+      {
+        "id": 30,
+        "value": 0,
+        "label": "Autoadaptive SH",
+        "unit": "°C"
+      },
+      {
+        "value": -21,
+        "id": 36,
+        "editable": true,
+        "label": "Alapjel",
+        "unit": "°C"
+      },
+      {
+        "value": 6,
+        "id": 38,
+        "editable": true,
+        "label": "Supervisor SH Regulation Set",
+        "unit": "°C"
+      },
+      {
+        "id": 40,
+        "value": 1,
+        "label": "On Off"
+      },
+      {
+        "id": 62,
+        "value": 0,
+        "label": "Defrost On"
+      },
+      {
+        "id": 76,
+        "value": 0,
+        "label": "SHOptimization"
+      },
+      {
+        "id": 77,
+        "value": 0,
+        "label": "StopCoolingStatus"
+      },
+      {
+        "id": 78,
+        "value": 0,
+        "label": "1st Digital Input Status"
+      },
+      {
+        "id": 80,
+        "value": 0,
+        "label": "3rd Digital Input Status"
+      },
+      {
+        "id": 98,
+        "value": 0,
+        "label": "Compressor 1"
+      },
+      {
+        "id": 99,
+        "value": 0,
+        "label": "Compressor 2"
+      },
+      {
+        "id": 101,
+        "value": 1,
+        "label": "Fans"
+      },
+      {
+        "id": 102,
+        "value": 0,
+        "label": "Alarm"
+      },
+      {
+        "id": 103,
+        "value": 0,
+        "label": "Light"
+      },
+      {
+        "id": 108,
+        "value": 0,
+        "label": "Probe 1 Alarm"
+      },
+      {
+        "id": 109,
+        "value": 0,
+        "label": "Probe 2 Alarm"
+      },
+      {
+        "id": 110,
+        "value": 0,
+        "label": "Probe 3 Alarm"
+      },
+      {
+        "id": 120,
+        "value": 0,
+        "label": "EAL Alarm"
+      },
+      {
+        "id": 121,
+        "value": 0,
+        "label": "CA Alarm"
+      },
+      {
+        "id": 122,
+        "value": 0,
+        "label": "PA Alarm"
+      },
+      {
+        "id": 123,
+        "value": 0,
+        "label": "dA Alarm"
+      },
+      {
+        "id": 124,
+        "value": 0,
+        "label": "CP1 Alarm"
+      },
+      {
+        "id": 125,
+        "value": 0,
+        "label": "CP2 Alarm"
+      },
+      {
+        "id": 126,
+        "value": 0,
+        "label": "rtF Alarm"
+      },
+      {
+        "id": 127,
+        "value": 0,
+        "label": "rtc Alarm"
+      },
+      {
+        "id": 128,
+        "value": 0,
+        "label": "EE Alarm"
+      },
+      {
+        "id": 129,
+        "value": 0,
+        "label": "LSH Alarm"
+      },
+      {
+        "id": 130,
+        "value": 0,
+        "label": "HSH Alarm"
+      },
+      {
+        "id": 131,
+        "value": 0,
+        "label": "MOP Alarm"
+      },
+      {
+        "id": 132,
+        "value": 0,
+        "label": "LOP Alarm"
+      },
+      {
+        "id": 8010,
+        "value": -21,
+        "label": "Túlhevítés",
+        "unit": "°C"
+      },
+      {
+        "id": 8051,
+        "value": 0,
+        "label": "Average SH",
+        "unit": "°C"
+      },
+      {
+        "id": 8053,
+        "value": 0,
+        "label": "Autoadaptive SH",
+        "unit": "°C"
+      },
+      {
+        "value": 6,
+        "id": 8061,
+        "editable": true,
+        "label": "Supervisor SH Regulation Set",
+        "unit": "°C"
+      },
+      {
+        "id": 100000,
+        "value": 0,
+        "label": "No-Link"
+      }
+    ]
+  },
+  {
+    "id": 114,
+    "name": "1.1 kompresszor olajhűtő Glikol nyomás",
+    "points": [
+      {
+        "id": 2,
+        "value": 3.1,
+        "label": "Probe Dec",
+        "unit": "bar"
+      },
+      {
+        "value": 0.8,
+        "id": 7,
+        "editable": true,
+        "label": "Set 1 Dec-VI",
+        "unit": "°C"
+      },
+      {
+        "value": 1,
+        "id": 8,
+        "editable": true,
+        "label": "Set 2 Dec-VI",
+        "unit": "°C"
+      },
+      {
+        "id": 26,
+        "value": 0,
+        "label": "Generic Alarm"
+      },
+      {
+        "id": 28,
+        "value": 0,
+        "label": "Alarm"
+      },
+      {
+        "id": 30,
+        "value": 0,
+        "label": "Load 1"
+      },
+      {
+        "id": 31,
+        "value": 0,
+        "label": "Load 2"
+      },
+      {
+        "id": 33,
+        "value": 1,
+        "label": "On"
+      },
+      {
+        "id": 34,
+        "value": 0,
+        "label": "Keyboard"
+      },
+      {
+        "id": 35,
+        "value": 0,
+        "label": "Energy Saving"
+      },
+      {
+        "id": 36,
+        "value": 0,
+        "label": "Low Value Pb1"
+      },
+      {
+        "id": 37,
+        "value": 0,
+        "label": "High Value Pb1"
+      },
+      {
+        "id": 38,
+        "value": 0,
+        "label": "Error Pb1"
+      },
+      {
+        "id": 40,
+        "value": 0,
+        "label": "External Alarm"
+      },
+      {
+        "id": 41,
+        "value": 0,
+        "label": "EEPROM Failure"
+      },
+      {
+        "id": 100000,
+        "value": 0,
+        "label": "No-Link"
+      }
+    ]
+  },
+  {
+    "id": 115,
+    "name": "10.1 kompresszor olajhűtő Glikol nyomás",
+    "points": [
+      {
+        "id": 2,
+        "value": 0,
+        "label": "Probe Dec",
+        "unit": "bar"
+      },
+      {
+        "value": 0,
+        "id": 7,
+        "editable": true,
+        "label": "Set 1 Dec-VI",
+        "unit": "°C"
+      },
+      {
+        "value": 0,
+        "id": 8,
+        "editable": true,
+        "label": "Set 2 Dec-VI",
+        "unit": "°C"
+      },
+      {
+        "id": 26,
+        "value": 0,
+        "label": "Generic Alarm"
+      },
+      {
+        "id": 28,
+        "value": 0,
+        "label": "Alarm"
+      },
+      {
+        "id": 30,
+        "value": 0,
+        "label": "Load 1"
+      },
+      {
+        "id": 31,
+        "value": 0,
+        "label": "Load 2"
+      },
+      {
+        "id": 33,
+        "value": 0,
+        "label": "On"
+      },
+      {
+        "id": 34,
+        "value": 0,
+        "label": "Keyboard"
+      },
+      {
+        "id": 35,
+        "value": 0,
+        "label": "Energy Saving"
+      },
+      {
+        "id": 36,
+        "value": 0,
+        "label": "Low Value Pb1"
+      },
+      {
+        "id": 37,
+        "value": 0,
+        "label": "High Value Pb1"
+      },
+      {
+        "id": 38,
+        "value": 0,
+        "label": "Error Pb1"
+      },
+      {
+        "id": 40,
+        "value": 0,
+        "label": "External Alarm"
+      },
+      {
+        "id": 41,
+        "value": 0,
+        "label": "EEPROM Failure"
+      },
+      {
+        "id": 100000,
+        "value": 0,
+        "label": "No-Link"
+      }
+    ]
+  },
+  {
+    "id": 116,
+    "name": "CO2 Kompresszor vezérlő",
+    "points": [
+      {
+        "id": 1,
+        "value": 8.1,
+        "label": "Suction 1 (Pb1)",
+        "unit": "bar"
+      },
+      {
+        "id": 3,
+        "value": 33.4,
+        "label": "Cond. 1 (Pb3)",
+        "unit": "bar"
+      },
+      {
+        "id": 5,
+        "value": -11.3,
+        "label": "Probe 5",
+        "unit": "°C"
+      },
+      {
+        "id": 6,
+        "value": 87.8,
+        "label": "Probe 6",
+        "unit": "°C"
+      },
+      {
+        "id": 9,
+        "value": 81.5,
+        "label": "Actual Set SUC1",
+        "unit": "°C"
+      },
+      {
+        "id": 10,
+        "value": 276.5,
+        "label": "Set Regul. COND1",
+        "unit": "°C"
+      },
+      {
+        "id": 32,
+        "value": 31.1,
+        "label": "Superheat1",
+        "unit": "°C"
+      },
+      {
+        "value": 8.1,
+        "id": 34,
+        "editable": true,
+        "label": "Set point SUC1",
+        "unit": "bar"
+      },
+      {
+        "value": 27.6,
+        "id": 35,
+        "editable": true,
+        "label": "Set COND 1",
+        "unit": "bar"
+      },
+      {
+        "id": 42,
+        "value": 0,
+        "label": "Safety Load 1"
+      },
+      {
+        "id": 43,
+        "value": 0,
+        "label": "Safety Load 2"
+      },
+      {
+        "id": 44,
+        "value": 0,
+        "label": "Safety Load 3"
+      },
+      {
+        "id": 46,
+        "value": 0,
+        "label": "Safety Load 5"
+      },
+      {
+        "id": 61,
+        "value": 0,
+        "label": "Generic Digital Input 1"
+      },
+      {
+        "id": 65,
+        "value": 1,
+        "label": "Generic Out 1"
+      },
+      {
+        "id": 66,
+        "value": 1,
+        "label": "Generic Out 2"
+      },
+      {
+        "id": 67,
+        "value": 0,
+        "label": "Generic Out 3"
+      },
+      {
+        "id": 80,
+        "value": 1,
+        "label": "On"
+      },
+      {
+        "id": 82,
+        "value": 0,
+        "label": "Energy Saving"
+      },
+      {
+        "id": 84,
+        "value": 0,
+        "label": "MAN Load 1"
+      },
+      {
+        "id": 85,
+        "value": 0,
+        "label": "MAN Load 2"
+      },
+      {
+        "id": 86,
+        "value": 0,
+        "label": "MAN Load 3"
+      },
+      {
+        "id": 99,
+        "value": 0,
+        "label": "Error Pb1"
+      },
+      {
+        "id": 100,
+        "value": 0,
+        "label": "Error Pb2"
+      },
+      {
+        "id": 101,
+        "value": 0,
+        "label": "Error Pb3"
+      },
+      {
+        "id": 102,
+        "value": 0,
+        "label": "Error Pb4"
+      },
+      {
+        "id": 107,
+        "value": 0,
+        "label": "Low Pressostate 1"
+      },
+      {
+        "id": 109,
+        "value": 0,
+        "label": "High Pressostate 1"
+      },
+      {
+        "id": 115,
+        "value": 0,
+        "label": "Low Pressure"
+      },
+      {
+        "id": 117,
+        "value": 0,
+        "label": "High Pressure"
+      },
+      {
+        "id": 100000,
+        "value": 0,
+        "label": "No-Link"
+      }
+    ]
+  },
+  {
+    "id": 134,
+    "name": "1.1 Kompresszor HMV",
+    "points": [
+      {
+        "id": 1,
+        "value": 46,
+        "label": "Probe Value P1",
+        "unit": "°C"
+      },
+      {
+        "id": 3,
+        "value": 0,
+        "label": "Probe Value P2",
+        "unit": "°C"
+      },
+      {
+        "id": 9,
+        "value": 5,
+        "label": "Pb Compressor Circuit 1",
+        "unit": "bar"
+      },
+      {
+        "id": 10,
+        "value": 47,
+        "label": "Operat. Set Compressor Circuit 1",
+        "unit": "bar"
+      },
+      {
+        "id": 13,
+        "value": 0,
+        "label": "Pb Fan Circuit",
+        "unit": "bar"
+      },
+      {
+        "id": 14,
+        "value": 35,
+        "label": "Operat. Set Fan Circuit",
+        "unit": "bar"
+      },
+      {
+        "id": 15,
+        "value": 0,
+        "label": "Average T/P in DGS Regulation",
+        "unit": "bar"
+      },
+      {
+        "id": 16,
+        "value": 0,
+        "label": "PWM Triac DGT Percentage",
+        "unit": "%"
+      },
+      {
+        "value": 35,
+        "id": 26,
+        "editable": true,
+        "label": "Supervion Set Point Fan Circuit",
+        "unit": "bar"
+      },
+      {
+        "value": 47,
+        "id": 27,
+        "editable": true,
+        "label": "Supervion Set Point Comperssor Circuit 1",
+        "unit": "bar"
+      },
+      {
+        "value": 5057,
+        "id": 29,
+        "editable": true,
+        "label": "Load1 working hours",
+        "unit": "10 Hrs"
+      },
+      {
+        "value": null,
+        "id": 30,
+        "editable": true,
+        "label": "Load2 working hours",
+        "unit": "10 Hrs"
+      },
+      {
+        "value": null,
+        "id": 31,
+        "editable": true,
+        "label": "Load3 working hours",
+        "unit": "10 Hrs"
+      },
+      {
+        "value": null,
+        "id": 32,
+        "editable": true,
+        "label": "Load4 working hours",
+        "unit": "10 Hrs"
+      },
+      {
+        "value": 47,
+        "id": 35,
+        "editable": true,
+        "label": "Set Point Compressor Circuit 1",
+        "unit": "bar"
+      },
+      {
+        "value": 35,
+        "id": 37,
+        "editable": true,
+        "label": "Set Point Fan",
+        "unit": "bar"
+      },
+      {
+        "id": 38,
+        "value": 1,
+        "label": "On"
+      },
+      {
+        "id": 39,
+        "value": 0,
+        "label": "Keyboard Lock"
+      },
+      {
+        "id": 40,
+        "value": 0,
+        "label": "Alarms muting"
+      },
+      {
+        "id": 46,
+        "value": 0,
+        "label": "Safety Load 1"
+      },
+      {
+        "id": 67,
+        "value": 0,
+        "label": "Compressor 1 Circuit1"
+      },
+      {
+        "id": 73,
+        "value": 0,
+        "label": "Compressor 1 Circuit2"
+      },
+      {
+        "id": 79,
+        "value": 0,
+        "label": "Fan 1"
+      },
+      {
+        "id": 92,
+        "value": 0,
+        "label": "Alarm"
+      },
+      {
+        "id": 95,
+        "value": 0,
+        "label": "Error Pb1"
+      },
+      {
+        "id": 96,
+        "value": 0,
+        "label": "Error Pb2"
+      },
+      {
+        "id": 97,
+        "value": 0,
+        "label": "Error Pb3"
+      },
+      {
+        "id": 98,
+        "value": 0,
+        "label": "Error Pb4"
+      },
+      {
+        "id": 99,
+        "value": 0,
+        "label": "C1LA Low CPR Circuit1"
+      },
+      {
+        "id": 100,
+        "value": 0,
+        "label": "C1HA High CPR Circuit1"
+      },
+      {
+        "id": 101,
+        "value": 0,
+        "label": "C2LA Low CPR Circuit2"
+      },
+      {
+        "id": 102,
+        "value": 0,
+        "label": "C2HA High CPR Circuit2"
+      },
+      {
+        "id": 103,
+        "value": 0,
+        "label": "F-LA Low Fan Circuit"
+      },
+      {
+        "id": 104,
+        "value": 0,
+        "label": "F-HA High Fan Circuit"
+      },
+      {
+        "id": 105,
+        "value": 0,
+        "label": "EA1 Load 1 Alarm"
+      },
+      {
+        "id": 106,
+        "value": 0,
+        "label": "EA2 Load 2 Alarm"
+      },
+      {
+        "id": 107,
+        "value": 0,
+        "label": "EA3 Load 3 Alarm"
+      },
+      {
+        "id": 108,
+        "value": 0,
+        "label": "EA4 Load 4 Alarm"
+      },
+      {
+        "id": 109,
+        "value": 0,
+        "label": "EA5 Load 5 Alarm"
+      },
+      {
+        "id": 110,
+        "value": 0,
+        "label": "EA6 Load 6 Alarm"
+      },
+      {
+        "id": 111,
+        "value": 0,
+        "label": "FC01 Feedback OA1"
+      },
+      {
+        "id": 112,
+        "value": 0,
+        "label": "FC02 Feedback OA2"
+      },
+      {
+        "id": 113,
+        "value": 0,
+        "label": "FC03 Feedback OA3"
+      },
+      {
+        "id": 114,
+        "value": 0,
+        "label": "FC04 Feedback OA4"
+      },
+      {
+        "id": 115,
+        "value": 0,
+        "label": "FC05 Feedback OA5"
+      },
+      {
+        "id": 116,
+        "value": 0,
+        "label": "FC06 Feedback OA6"
+      },
+      {
+        "id": 117,
+        "value": 0,
+        "label": "Lock Alarm BC01"
+      },
+      {
+        "id": 118,
+        "value": 0,
+        "label": "Lock Alarm BC02"
+      },
+      {
+        "id": 119,
+        "value": 0,
+        "label": "Lock Alarm BC03"
+      },
+      {
+        "id": 120,
+        "value": 0,
+        "label": "Lock Alarm BC04"
+      },
+      {
+        "id": 121,
+        "value": 0,
+        "label": "Lock Alarm BC05"
+      },
+      {
+        "id": 122,
+        "value": 0,
+        "label": "Lock Alarm BC06"
+      },
+      {
+        "id": 123,
+        "value": 0,
+        "label": "EOL1 Low CPR Circuit1"
+      },
+      {
+        "id": 124,
+        "value": 0,
+        "label": "EOL2 Low CPR Circuit2"
+      },
+      {
+        "id": 125,
+        "value": 0,
+        "label": "E1L1 Low CPR Circuit1"
+      },
+      {
+        "id": 126,
+        "value": 0,
+        "label": "E1L2 Low CPR Circuit2"
+      },
+      {
+        "id": 127,
+        "value": 0,
+        "label": "EOH High Fan Circuit"
+      },
+      {
+        "id": 128,
+        "value": 0,
+        "label": "DTL discharge DGS compressor"
+      },
+      {
+        "id": 129,
+        "value": 0,
+        "label": "A5 liquid level"
+      },
+      {
+        "id": 130,
+        "value": 0,
+        "label": "A12 device configuration"
+      },
+      {
+        "id": 131,
+        "value": 0,
+        "label": "A13 EEPROM"
+      },
+      {
+        "id": 132,
+        "value": 0,
+        "label": "A14 Maintenance"
+      },
+      {
+        "id": 133,
+        "value": 0,
+        "label": "EA external alarm"
+      },
+      {
+        "id": 134,
+        "value": 0,
+        "label": "INF Inverter fan (no relay) safety"
+      },
+      {
+        "id": 135,
+        "value": 0,
+        "label": "PrSH Overheating pre-alarm"
+      },
+      {
+        "id": 136,
+        "value": 0,
+        "label": "ALSH High Overheating"
+      },
+      {
+        "id": 100000,
+        "value": 0,
+        "label": "No-Link"
+      }
+    ]
+  },
+  {
+    "id": 135,
+    "name": "10.1 Kompresszor HMV",
+    "points": [
+      {
+        "id": 1,
+        "value": 0,
+        "label": "Probe Value P1",
+        "unit": "°C"
+      },
+      {
+        "id": 3,
+        "value": 0,
+        "label": "Probe Value P2",
+        "unit": "°C"
+      },
+      {
+        "id": 9,
+        "value": 0,
+        "label": "Pb Compressor Circuit 1",
+        "unit": "bar"
+      },
+      {
+        "id": 10,
+        "value": 0,
+        "label": "Operat. Set Compressor Circuit 1",
+        "unit": "bar"
+      },
+      {
+        "id": 13,
+        "value": 0,
+        "label": "Pb Fan Circuit",
+        "unit": "bar"
+      },
+      {
+        "id": 14,
+        "value": 0,
+        "label": "Operat. Set Fan Circuit",
+        "unit": "bar"
+      },
+      {
+        "id": 15,
+        "value": 0,
+        "label": "Average T/P in DGS Regulation",
+        "unit": "bar"
+      },
+      {
+        "id": 16,
+        "value": 0,
+        "label": "PWM Triac DGT Percentage",
+        "unit": "%"
+      },
+      {
+        "value": 0,
+        "id": 26,
+        "editable": true,
+        "label": "Supervion Set Point Fan Circuit",
+        "unit": "bar"
+      },
+      {
+        "value": 0,
+        "id": 27,
+        "editable": true,
+        "label": "Supervion Set Point Comperssor Circuit 1",
+        "unit": "bar"
+      },
+      {
+        "value": 0,
+        "id": 29,
+        "editable": true,
+        "label": "Load1 working hours",
+        "unit": "10 Hrs"
+      },
+      {
+        "value": null,
+        "id": 30,
+        "editable": true,
+        "label": "Load2 working hours",
+        "unit": "10 Hrs"
+      },
+      {
+        "value": null,
+        "id": 31,
+        "editable": true,
+        "label": "Load3 working hours",
+        "unit": "10 Hrs"
+      },
+      {
+        "value": null,
+        "id": 32,
+        "editable": true,
+        "label": "Load4 working hours",
+        "unit": "10 Hrs"
+      },
+      {
+        "value": 0,
+        "id": 35,
+        "editable": true,
+        "label": "Set Point Compressor Circuit 1",
+        "unit": "bar"
+      },
+      {
+        "value": 0,
+        "id": 37,
+        "editable": true,
+        "label": "Set Point Fan",
+        "unit": "bar"
+      },
+      {
+        "id": 38,
+        "value": 0,
+        "label": "On"
+      },
+      {
+        "id": 39,
+        "value": 0,
+        "label": "Keyboard Lock"
+      },
+      {
+        "id": 40,
+        "value": 0,
+        "label": "Alarms muting"
+      },
+      {
+        "id": 46,
+        "value": 0,
+        "label": "Safety Load 1"
+      },
+      {
+        "id": 67,
+        "value": 0,
+        "label": "Compressor 1 Circuit1"
+      },
+      {
+        "id": 73,
+        "value": 0,
+        "label": "Compressor 1 Circuit2"
+      },
+      {
+        "id": 79,
+        "value": 0,
+        "label": "Fan 1"
+      },
+      {
+        "id": 92,
+        "value": 0,
+        "label": "Alarm"
+      },
+      {
+        "id": 95,
+        "value": 0,
+        "label": "Error Pb1"
+      },
+      {
+        "id": 96,
+        "value": 0,
+        "label": "Error Pb2"
+      },
+      {
+        "id": 97,
+        "value": 0,
+        "label": "Error Pb3"
+      },
+      {
+        "id": 98,
+        "value": 0,
+        "label": "Error Pb4"
+      },
+      {
+        "id": 99,
+        "value": 0,
+        "label": "C1LA Low CPR Circuit1"
+      },
+      {
+        "id": 100,
+        "value": 0,
+        "label": "C1HA High CPR Circuit1"
+      },
+      {
+        "id": 101,
+        "value": 0,
+        "label": "C2LA Low CPR Circuit2"
+      },
+      {
+        "id": 102,
+        "value": 0,
+        "label": "C2HA High CPR Circuit2"
+      },
+      {
+        "id": 103,
+        "value": 0,
+        "label": "F-LA Low Fan Circuit"
+      },
+      {
+        "id": 104,
+        "value": 0,
+        "label": "F-HA High Fan Circuit"
+      },
+      {
+        "id": 105,
+        "value": 0,
+        "label": "EA1 Load 1 Alarm"
+      },
+      {
+        "id": 106,
+        "value": 0,
+        "label": "EA2 Load 2 Alarm"
+      },
+      {
+        "id": 107,
+        "value": 0,
+        "label": "EA3 Load 3 Alarm"
+      },
+      {
+        "id": 108,
+        "value": 0,
+        "label": "EA4 Load 4 Alarm"
+      },
+      {
+        "id": 109,
+        "value": 0,
+        "label": "EA5 Load 5 Alarm"
+      },
+      {
+        "id": 110,
+        "value": 0,
+        "label": "EA6 Load 6 Alarm"
+      },
+      {
+        "id": 111,
+        "value": 0,
+        "label": "FC01 Feedback OA1"
+      },
+      {
+        "id": 112,
+        "value": 0,
+        "label": "FC02 Feedback OA2"
+      },
+      {
+        "id": 113,
+        "value": 0,
+        "label": "FC03 Feedback OA3"
+      },
+      {
+        "id": 114,
+        "value": 0,
+        "label": "FC04 Feedback OA4"
+      },
+      {
+        "id": 115,
+        "value": 0,
+        "label": "FC05 Feedback OA5"
+      },
+      {
+        "id": 116,
+        "value": 0,
+        "label": "FC06 Feedback OA6"
+      },
+      {
+        "id": 117,
+        "value": 0,
+        "label": "Lock Alarm BC01"
+      },
+      {
+        "id": 118,
+        "value": 0,
+        "label": "Lock Alarm BC02"
+      },
+      {
+        "id": 119,
+        "value": 0,
+        "label": "Lock Alarm BC03"
+      },
+      {
+        "id": 120,
+        "value": 0,
+        "label": "Lock Alarm BC04"
+      },
+      {
+        "id": 121,
+        "value": 0,
+        "label": "Lock Alarm BC05"
+      },
+      {
+        "id": 122,
+        "value": 0,
+        "label": "Lock Alarm BC06"
+      },
+      {
+        "id": 123,
+        "value": 0,
+        "label": "EOL1 Low CPR Circuit1"
+      },
+      {
+        "id": 124,
+        "value": 0,
+        "label": "EOL2 Low CPR Circuit2"
+      },
+      {
+        "id": 125,
+        "value": 0,
+        "label": "E1L1 Low CPR Circuit1"
+      },
+      {
+        "id": 126,
+        "value": 0,
+        "label": "E1L2 Low CPR Circuit2"
+      },
+      {
+        "id": 127,
+        "value": 0,
+        "label": "EOH High Fan Circuit"
+      },
+      {
+        "id": 128,
+        "value": 0,
+        "label": "DTL discharge DGS compressor"
+      },
+      {
+        "id": 129,
+        "value": 0,
+        "label": "A5 liquid level"
+      },
+      {
+        "id": 130,
+        "value": 0,
+        "label": "A12 device configuration"
+      },
+      {
+        "id": 131,
+        "value": 0,
+        "label": "A13 EEPROM"
+      },
+      {
+        "id": 132,
+        "value": 0,
+        "label": "A14 Maintenance"
+      },
+      {
+        "id": 133,
+        "value": 0,
+        "label": "EA external alarm"
+      },
+      {
+        "id": 134,
+        "value": 0,
+        "label": "INF Inverter fan (no relay) safety"
+      },
+      {
+        "id": 135,
+        "value": 0,
+        "label": "PrSH Overheating pre-alarm"
+      },
+      {
+        "id": 136,
+        "value": 0,
+        "label": "ALSH High Overheating"
+      },
+      {
+        "id": 100000,
+        "value": 0,
+        "label": "No-Link"
+      }
+    ]
+  },
+  {
+    "id": 139,
+    "name": "Siemens_PLC",
+    "points": [
+      {
+        "id": 1,
+        "value": -2.8,
+        "label": "Tartály felső hőmérséklet",
+        "unit": "°C"
+      },
+      {
+        "id": 2,
+        "value": -2.9,
+        "label": "Tartály alsó hőmérséklet",
+        "unit": "°C"
+      },
+      {
+        "id": 3,
+        "value": 0.4,
+        "label": "HG1 Belépő hőmérséklet",
+        "unit": "°C"
+      },
+      {
+        "id": 4,
+        "value": -2.3,
+        "label": "HG1 Kilépő hőmérséklet",
+        "unit": "°C"
+      },
+      {
+        "id": 5,
+        "value": -3.2,
+        "label": "HG2 Belépő hőmérséklet",
+        "unit": "°C"
+      },
+      {
+        "id": 6,
+        "value": -3.4,
+        "label": "HG2 Kilépő hőmérséklet",
+        "unit": "°C"
+      },
+      {
+        "id": 7,
+        "value": -1.9,
+        "label": "Termek belépő hőmérséklet",
+        "unit": "°C"
+      },
+      {
+        "id": 8,
+        "value": 2.2,
+        "label": "1.1 Szívónyomás",
+        "unit": "bar"
+      },
+      {
+        "id": 9,
+        "value": 10.4,
+        "label": "1.1 Nyomóoldali nyomás",
+        "unit": "bar"
+      },
+      {
+        "id": 10,
+        "value": 12.9,
+        "label": "1.1 Olajnyomás",
+        "unit": "bar"
+      },
+      {
+        "id": 11,
+        "value": 66.6,
+        "label": "1.1 Kompresszor Kapacitás",
+        "unit": "%"
+      },
+      {
+        "id": 12,
+        "value": -6.1,
+        "label": "1.1 Szívóhőmérséklet",
+        "unit": "°C"
+      },
+      {
+        "id": 13,
+        "value": 69,
+        "label": "1.1 Nyomóhőmérséklet",
+        "unit": "°C"
+      },
+      {
+        "id": 14,
+        "value": 50.8,
+        "label": "1.1 Olajhőmérséklet",
+        "unit": "°C"
+      },
+      {
+        "id": 15,
+        "value": 188.2,
+        "label": "1.1 Motoráram",
+        "unit": "A"
+      },
+      {
+        "id": 18,
+        "value": 99.8,
+        "label": "1.1 Csúszka pozíció",
+        "unit": "%"
+      },
+      {
+        "id": 19,
+        "value": 2.5,
+        "label": "1.1 Olajnyomás különbség",
+        "unit": "bar"
+      },
+      {
+        "id": 20,
+        "value": 0.8,
+        "label": "1.1 Szívó túlhevítés",
+        "unit": "°C"
+      },
+      {
+        "id": 21,
+        "value": 39.8,
+        "label": "1.1 Nyomó túlhevítés",
+        "unit": "°C"
+      },
+      {
+        "id": 22,
+        "value": 0.2,
+        "label": "1.1 FFDP",
+        "unit": "bar"
+      },
+      {
+        "id": 23,
+        "value": -2,
+        "label": "1.1 CUT_IN",
+        "unit": "°C"
+      },
+      {
+        "id": 25,
+        "value": -3,
+        "label": "1.1 Temp_SP",
+        "unit": "°C"
+      },
+      {
+        "id": 26,
+        "value": -4.5,
+        "label": "1.1 CUT_OUT",
+        "unit": "°C"
+      },
+      {
+        "id": 27,
+        "value": 0,
+        "label": "1.1 Riasztás státusz"
+      },
+      {
+        "id": 28,
+        "value": 5,
+        "label": "1.1 Kompresszor üzemmód"
+      },
+      {
+        "id": 29,
+        "value": 8,
+        "label": "1.1 Kompresszor Státusz"
+      },
+      {
+        "id": 30,
+        "value": 3000,
+        "label": "1.1 Kompresszor fordulatszám",
+        "unit": "RPM"
+      },
+      {
+        "id": 31,
+        "value": 6.8,
+        "label": "10.1 Szívónyomás",
+        "unit": "bar"
+      },
+      {
+        "id": 32,
+        "value": 6.8,
+        "label": "10.1 Nyomóoldali nyomás",
+        "unit": "bar"
+      },
+      {
+        "id": 33,
+        "value": 6.8,
+        "label": "10.1 Olajnyomás",
+        "unit": "bar"
+      },
+      {
+        "id": 34,
+        "value": 0,
+        "label": "10.1  Kompresszor Kapacitás",
+        "unit": "%"
+      },
+      {
+        "id": 35,
+        "value": 21.9,
+        "label": "10.1 Szívóhőmérséklet",
+        "unit": "°C"
+      },
+      {
+        "id": 36,
+        "value": 34.2,
+        "label": "10.1 Nyomóhőmérséklet",
+        "unit": "°C"
+      },
+      {
+        "id": 37,
+        "value": 21.4,
+        "label": "10.1 Olajhőmérséklet",
+        "unit": "°C"
+      },
+      {
+        "id": 38,
+        "value": 0,
+        "label": "10.1 Motoráram",
+        "unit": "A"
+      },
+      {
+        "id": 41,
+        "value": 3,
+        "label": "10.1 Csúszka pozíció",
+        "unit": "%"
+      },
+      {
+        "id": 42,
+        "value": 0,
+        "label": "10.1 Olajnyomás különbség",
+        "unit": "bar"
+      },
+      {
+        "id": 43,
+        "value": 4.8,
+        "label": "10.1 Szívó túlhevítés",
+        "unit": "°C"
+      },
+      {
+        "id": 44,
+        "value": 17.3,
+        "label": "10.1 Nyomó túlhevítés",
+        "unit": "°C"
+      },
+      {
+        "id": 45,
+        "value": 0,
+        "label": "10.1 FFDP",
+        "unit": "bar"
+      },
+      {
+        "id": 46,
+        "value": -1,
+        "label": "10.1 CUT_IN",
+        "unit": "°C"
+      },
+      {
+        "id": 48,
+        "value": -3.5,
+        "label": "10.1 Temp_SP",
+        "unit": "°C"
+      },
+      {
+        "id": 49,
+        "value": -4.5,
+        "label": "10.1 CUT_OUT",
+        "unit": "°C"
+      },
+      {
+        "id": 50,
+        "value": 0,
+        "label": "10.1 Riasztás státusz"
+      },
+      {
+        "id": 51,
+        "value": 4,
+        "label": "10.1 Kompresszor üzemmód"
+      },
+      {
+        "id": 52,
+        "value": 0,
+        "label": "10.1 Kompresszor Státusz"
+      },
+      {
+        "id": 53,
+        "value": 0,
+        "label": "10.1 Kompresszor fordulatszám",
+        "unit": "RPM"
+      },
+      {
+        "id": 54,
+        "value": -2.1,
+        "label": "CO2 Hőcserélő belépő hőmérséklet",
+        "unit": "°C"
+      },
+      {
+        "id": 55,
+        "value": 0.3,
+        "label": "CO2 Hőcserélő kilépő hőmérséklet",
+        "unit": "°C"
+      },
+      {
+        "id": 56,
+        "value": 1,
+        "label": "HG1 AUTO"
+      },
+      {
+        "id": 57,
+        "value": 1,
+        "label": "HG1 FUT"
+      },
+      {
+        "id": 58,
+        "value": 0,
+        "label": "HG1 ERROR"
+      },
+      {
+        "id": 59,
+        "value": 1,
+        "label": "HG2 AUTO"
+      },
+      {
+        "id": 60,
+        "value": 0,
+        "label": "HG2 FUT"
+      },
+      {
+        "id": 61,
+        "value": 0,
+        "label": "HG2 ERROR"
+      },
+      {
+        "value": -3.5,
+        "id": 70,
+        "editable": true,
+        "label": "Alapjel",
+        "unit": "°C"
+      },
+      {
+        "value": 1,
+        "id": 71,
+        "editable": true,
+        "label": "Alapjel határérték -",
+        "unit": "°C"
+      },
+      {
+        "value": 1,
+        "id": 72,
+        "editable": true,
+        "label": "Alapjel határérték +",
+        "unit": "°C"
+      },
+      {
+        "id": 73,
+        "value": 2.4,
+        "label": "Termek kilépő hőmérséklet",
+        "unit": "°C"
+      },
+      {
+        "id": 106,
+        "value": 1,
+        "label": "1.1 Hideg glikol szivattyú AUTO"
+      },
+      {
+        "id": 107,
+        "value": 1,
+        "label": "1.1 Hideg glikol szivattyú FUT"
+      },
+      {
+        "id": 108,
+        "value": 0,
+        "label": "1.1 Hideg glikol szivattyú ERROR"
+      },
+      {
+        "id": 109,
+        "value": 1,
+        "label": "10.1 Hideg glikol szivattyú AUTO"
+      },
+      {
+        "id": 110,
+        "value": 0,
+        "label": "10.1 Hideg glikol szivattyú FUT"
+      },
+      {
+        "id": 111,
+        "value": 0,
+        "label": "10.1 Hideg glikol szivattyú ERROR"
+      },
+      {
+        "id": 112,
+        "value": 1,
+        "label": "Főköri glikol szivattyú (minuszos kör) 1 AUTO"
+      },
+      {
+        "id": 113,
+        "value": 1,
+        "label": "Főköri glikol szivattyú (minuszos kör) 1 FUT"
+      },
+      {
+        "id": 114,
+        "value": 0,
+        "label": "Főköri glikol szivattyú (minuszos kör) 1 ERROR"
+      },
+      {
+        "id": 115,
+        "value": 1,
+        "label": "Főköri glikol szivattyú (minuszos kör) 2 AUTO"
+      },
+      {
+        "id": 116,
+        "value": 0,
+        "label": "Főköri glikol szivattyú (minuszos kör) 2 FUT"
+      },
+      {
+        "id": 117,
+        "value": 0,
+        "label": "Főköri glikol szivattyú (minuszos kör) 2 ERROR"
+      },
+      {
+        "id": 118,
+        "value": 1,
+        "label": "Segédköri glikol szivattyú (pluszos kör) 1 AUTO"
+      },
+      {
+        "value": 1.6,
+        "id": 119,
+        "editable": true,
+        "label": "Glikol nyomás",
+        "unit": "bar"
+      },
+      {
+        "id": 120,
+        "value": 0,
+        "label": "Alacsony nyomás riasztás"
+      },
+      {
+        "id": 121,
+        "value": 1,
+        "label": "Segédköri glikol szivattyú (pluszos kör) 2 AUTO"
+      },
+      {
+        "id": 122,
+        "value": 1,
+        "label": "Segédköri glikol szivattyú (pluszos kör) 2 FUT"
+      },
+      {
+        "id": 123,
+        "value": 0,
+        "label": "Segédköri glikol szivattyú (pluszos kör) 2 ERROR"
+      },
+      {
+        "value": 3,
+        "id": 124,
+        "editable": true,
+        "label": "70-es szivattyú hőfoktiltás határérték +",
+        "unit": "°C"
+      },
+      {
+        "value": 5,
+        "id": 125,
+        "editable": true,
+        "label": "80-as szivattyú hőfoktiltás határérték +",
+        "unit": "°C"
+      },
+      {
+        "id": 126,
+        "value": 0,
+        "label": "Segédköri glikol szivattyú (pluszos kör) 1 FUT"
+      },
+      {
+        "id": 127,
+        "value": 0,
+        "label": "Segédköri glikol szivattyú (pluszos kör) 1 ERROR"
+      },
+      {
+        "id": 128,
+        "value": 0,
+        "label": "HG1 alacsony szivónyomás"
+      },
+      {
+        "id": 129,
+        "value": 0,
+        "label": "HG1 magas nyomónyomás"
+      },
+      {
+        "id": 130,
+        "value": 0,
+        "label": "HG2 alacsony szivónyomás"
+      },
+      {
+        "id": 131,
+        "value": 0,
+        "label": "HG2 magas nyomónyomás"
+      },
+      {
+        "id": 100000,
+        "value": 0,
+        "label": "No-Link"
+      }
+    ]
+  }
+]
