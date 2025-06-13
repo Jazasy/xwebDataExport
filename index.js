@@ -1,15 +1,16 @@
+require("dotenv").config();
 const fs = require("fs");
 const runtime = require("./requests/runtime");
-const deviceData = require("./requests/deviceData");
-const mergeDatas = require("./utils/mergeDatas");
-const exportToXlsx = require("./utils/exportToXlsx");
+const deviceDataSplits = require("./utils/deviceDataSplits");
+const fullMerge = require("./utils/fullMerge");
+const mailDatas = require("./utils/mailDatas");
 
 async function main() {
-	const ip = "185.232.83.138:10070";
-	const usernameInput = "Admin";
-	const passwordInput = "MY2049";
-	const fromInput = 1749787989;
-	const toInput = 1749791589;
+	const ip = process.env.IP;
+	const usernameInput = process.env.USERNAMEE;
+	const passwordInput = process.env.PASSWORD;
+	const fromInput = process.env.FROM;
+	const toInput = process.env.TO;
 
 	const url = `http://${ip}/api`;
 
@@ -18,42 +19,22 @@ async function main() {
 	formData.append("username", usernameInput);
 	formData.append("password", passwordInput);
 
-	/* const devices = await runtime(formData, url);
-	const deviceDatas = await deviceData(
+	const devices = await runtime(formData, url);
+	const values = await deviceDataSplits(
 		formData,
 		devices,
 		fromInput,
 		toInput,
 		url
-	); */
-
-	const savedRuntime = JSON.parse(fs.readFileSync("response.json", "utf8"));
-	const savedDiveces = savedRuntime.map((device) => ({
-		id: device.id,
-		name: device.name,
-		points: device.points,
-	}));
-
-	const savedDevicesData = JSON.parse(
-		fs.readFileSync("deviceDatas.json", "utf8")
 	);
 
-	const mergedDatas = mergeDatas(savedDiveces, savedDevicesData);
+	const allMergedDatas = fullMerge(devices, values);
 
-	exportToXlsx(mergedDatas); // létrehozza a `devices_export.xlsx` fájlt
+	const fileName = `from${fromInput}-to${toInput}-FULL.json`;
 
-	//fs.writeFileSync("mergedDatas.json", JSON.stringify(mergedDatas, null, 2));
+	fs.writeFileSync(fileName, JSON.stringify(allMergedDatas, null, 2));
 
-	//fs.writeFileSync("deviceDatas.json", JSON.stringify(deviceDatas, null, 2));
-	/* const mergedDatas = mergeDatas(devices, deviceDatas);
-
-	console.dir(mergedDatas, { depth: null, colors: true }); */
-
-	//const decoded = decode(devices);
-
-	//fs.writeFileSync("response.json", JSON.stringify(decoded, null, 2), "utf8");
-	//console.log(JSON.stringify(decoded, null, 2));
-	//console.dir(decoded, { depth: null, colors: true });
+	mailDatas(fileName);
 }
 
 main();

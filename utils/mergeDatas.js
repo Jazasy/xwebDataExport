@@ -9,8 +9,6 @@ function mergeDatas(devices, deviceData) {
 				.map((entry) => ({
 					value: entry[idStr],
 					timestamp: entry.timestamp,
-					unit: point.unit,
-					label: point.label,
 				}));
 
 			return {

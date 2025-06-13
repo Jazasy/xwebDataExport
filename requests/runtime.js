@@ -1,10 +1,11 @@
-const fs = require("fs");
 const axios = require("axios");
 const decode = require("../utils/decode");
 
-async function runtime(formData) {
+async function runtime(formData, url) {
 	try {
 		formData.set("action", "runtime");
+
+		console.log(`Requesting Datas...`);
 
 		res = await axios.post(url, formData.toString(), {
 			headers: {

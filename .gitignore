@@ -1,0 +1,5 @@
+.env
+package-lock.json
+mergedDatas.json
+response.json
+deviceDatas.json
