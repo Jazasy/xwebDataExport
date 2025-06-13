@@ -2,27 +2,20 @@ const fs = require("fs");
 const axios = require("axios");
 const decode = require("../utils/decode");
 
-function runtime(formData) {
+async function runtime(formData) {
 	try {
 		formData.set("action", "runtime");
 
-		/* res = await axios.post(url, formData.toString(), {
-                headers: {
-                    "Content-Type": "application/x-www-form-urlencoded",
-                },
-            });
-    
-            const devices = res.data.runtime.devices.map((device) => ({
-                id: device.id,
-                name: device.name,
-                points: device.points,
-            })); */
+		res = await axios.post(url, formData.toString(), {
+			headers: {
+				"Content-Type": "application/x-www-form-urlencoded",
+			},
+		});
 
-		const saved = JSON.parse(fs.readFileSync("response.json", "utf8"));
-		const devices = saved.map((d) => ({
-			id: d.id,
-			name: d.name,
-			points: d.points,
+		const devices = res.data.runtime.devices.map((device) => ({
+			id: device.id,
+			name: device.name,
+			points: device.points,
 		}));
 
 		return decode(devices);

@@ -9,6 +9,9 @@ async function deviceData(formData, devices, fromInput, toInput, url) {
 
 		const timeSeriesData = [];
 
+		let loader = 0;
+		process.stdout.write(`\r${(loader / devices.length) * 100}%`);
+
 		for (const device of devices) {
 			formData.set("device", device.id);
 
@@ -19,8 +22,10 @@ async function deviceData(formData, devices, fromInput, toInput, url) {
 			});
 
 			timeSeriesData.push(res.data);
-		}
 
+			loader += 1;
+			process.stdout.write(`\r${Math.floor((loader / devices.length) * 100)}%`);
+		}
 		return timeSeriesData;
 	} catch (error) {
 		console.error("ERROR IN DEVICE_DATA REQUEST");

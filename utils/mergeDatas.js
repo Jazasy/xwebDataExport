@@ -1,22 +1,27 @@
-function mergeDatas(devices, devicesData) {
-	return devices.map((device) => {
-		const newPoints = device.points.map((point) => {
-			const mergedValues = devicesData
-				.filter((entry) => entry.hasOwnProperty(point.id))
+function mergeDatas(devices, deviceData) {
+	return devices.map((device, index) => {
+		const timeseries = deviceData[index]?.data || [];
+
+		const updatedPoints = device.points.map((point) => {
+			const idStr = point.id.toString();
+			const valueHistory = timeseries
+				.filter((entry) => idStr in entry)
 				.map((entry) => ({
-					value: entry[point.id],
+					value: entry[idStr],
 					timestamp: entry.timestamp,
+					unit: point.unit,
+					label: point.label,
 				}));
 
 			return {
 				...point,
-				value: mergedValues,
+				value: valueHistory,
 			};
 		});
 
 		return {
 			...device,
-			points: newPoints,
+			points: updatedPoints,
 		};
 	});
 }
