@@ -28,6 +28,10 @@ async function main() {
 		url
 	);
 
+	fs.writeFileSync("devices.json", JSON.stringify(devices, null, 2));
+
+	fs.writeFileSync("allDeviceData.json", JSON.stringify(values, null, 2));
+
 	const allMergedDatas = fullMerge(devices, values);
 
 	const fileName = `from${fromInput}-to${toInput}-FULL.json`;
