@@ -18,7 +18,7 @@ function mailDatas(fileName) {
 		attachments: [
 			{
 				filename: fileName,
-				path: `../${fileName}`,
+				path: `./${fileName}`, //itt azért nem .. mert ott nézi a futtatási helyet nézi
 			},
 		],
 	};

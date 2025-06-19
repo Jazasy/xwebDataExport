@@ -19,18 +19,8 @@ async function main() {
 	formData.append("username", usernameInput);
 	formData.append("password", passwordInput);
 
-	const devices = await runtime(formData, url);
-	const values = await deviceDataSplits(
-		formData,
-		devices,
-		fromInput,
-		toInput,
-		url
-	);
-
-	fs.writeFileSync("devices.json", JSON.stringify(devices, null, 2));
-
-	fs.writeFileSync("allDeviceData.json", JSON.stringify(values, null, 2));
+	const devices = fs.readFileSync("devices.json", "utf8");
+	const values = fs.readFileSync("allDeviceDataTest.json", "utf8");
 
 	const allMergedDatas = fullMerge(devices, values);
 

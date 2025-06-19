@@ -26,13 +26,13 @@ async function deviceDataSplits(formData, devices, fromInput, toInput, url) {
 		if (result) {
 			allResults.push(result); //ide nem jó a spreads
 
-			/* mergedResult = mergeDatas(devices, result);
+			mergedResult = mergeDatas(devices, result);
 
 			const fileName = `from${currentFrom}-to${currentTo}-SPLIT.json`;
 
 			fs.writeFileSync(fileName, JSON.stringify(mergedResult, null, 2));
 
-			mailDatas(fileName); */
+			mailDatas(fileName);
 		}
 
 		currentFrom = currentTo;

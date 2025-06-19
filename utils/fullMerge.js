@@ -1,4 +1,9 @@
+const mergeDatas = require("./mergeDatas");
+
 function fullMerge(devices, allDeviceData) {
+	devices = JSON.parse(devices);
+	allDeviceData = JSON.parse(allDeviceData);
+
 	const mergedDeviceData = devices.map(() => ({ data: [] }));
 
 	allDeviceData.forEach((deviceDataChunk) => {
