@@ -1,6 +1,5 @@
 function mergeDatas(devices, deviceData) {
 	return devices.map((device, index) => {
-		console.log(deviceData);
 		const timeseries = deviceData[index]?.data || [];
 
 		const updatedPoints = device.points.map((point) => {

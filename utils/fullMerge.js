@@ -1,3 +1,5 @@
+const mergeDatas = require("./mergeDatas");
+
 function fullMerge(devices, allDeviceData) {
 	const mergedDeviceData = devices.map(() => ({ data: [] }));
 
