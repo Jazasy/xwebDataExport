@@ -1,4 +1,5 @@
 const axios = require("axios");
+const delay = require("../utils/delay");
 
 async function deviceData(formData, devices, fromInput, toInput, url) {
 	formData.set("action", "device_data");
@@ -31,12 +32,13 @@ async function deviceData(formData, devices, fromInput, toInput, url) {
 				console.log(error);
 				console.log(`ERROR AT REQUESTIN DEVICE DATA ${device.id}`);
 				console.log("RETRY...");
-				await delay(10000);
+				await delay(5000);
 			}
 		}
 
 		loader += 1;
 		process.stdout.write(`\r${Math.floor((loader / devices.length) * 100)}%`);
+		await delay(1000);
 	}
 	return timeSeriesData;
 }
