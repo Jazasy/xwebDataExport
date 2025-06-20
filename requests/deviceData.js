@@ -31,6 +31,7 @@ async function deviceData(formData, devices, fromInput, toInput, url) {
 				console.log(error);
 				console.log(`ERROR AT REQUESTIN DEVICE DATA ${device.id}`);
 				console.log("RETRY...");
+				await delay(10000);
 			}
 		}
 
