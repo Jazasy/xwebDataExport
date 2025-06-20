@@ -23,8 +23,8 @@ async function main() {
 	const values = await deviceDataSplits(
 		formData,
 		devices,
-		fromInput,
-		toInput,
+		parseInt(fromInput, 10),
+		parseInt(toInput, 10),
 		url
 	);
 
