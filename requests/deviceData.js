@@ -1,36 +1,43 @@
 const axios = require("axios");
 
 async function deviceData(formData, devices, fromInput, toInput, url) {
-	try {
-		formData.set("action", "device_data");
-		formData.append("from", fromInput);
-		formData.append("to", toInput);
-		formData.append("device", -1);
+	formData.set("action", "device_data");
+	formData.set("from", fromInput);
+	formData.set("to", toInput);
+	formData.set("device", -1);
 
-		const timeSeriesData = [];
+	const timeSeriesData = [];
 
-		let loader = 0;
-		process.stdout.write(`\r${Math.floor((loader / devices.length) * 100)}%`);
+	let loader = 0;
+	process.stdout.write(`\r${Math.floor((loader / devices.length) * 100)}% `);
 
-		for (const device of devices) {
-			formData.set("device", device.id);
+	for (const device of devices) {
+		formData.set("device", device.id);
 
-			const res = await axios.post(url, formData.toString(), {
-				headers: {
-					"Content-Type": "application/x-www-form-urlencoded",
-				},
-			});
+		let success = false;
 
-			timeSeriesData.push(res.data);
+		while (!success) {
+			try {
+				const res = await axios.post(url, formData.toString(), {
+					headers: {
+						"Content-Type": "application/x-www-form-urlencoded",
+					},
+				});
 
-			loader += 1;
-			process.stdout.write(`\r${Math.floor((loader / devices.length) * 100)}%`);
+				timeSeriesData.push(res.data);
+
+				success = true;
+			} catch (error) {
+				console.log(error);
+				console.log(`ERROR AT REQUESTIN DEVICE DATA ${device.id}`);
+				console.log("RETRY...");
+			}
 		}
-		return timeSeriesData;
-	} catch (error) {
-		console.error("ERROR IN DEVICE_DATA REQUEST");
-		console.error(error);
+
+		loader += 1;
+		process.stdout.write(`\r${Math.floor((loader / devices.length) * 100)}%`);
 	}
+	return timeSeriesData;
 }
 
 module.exports = deviceData;
