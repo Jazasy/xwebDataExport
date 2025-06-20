@@ -4,7 +4,7 @@ const mergeDatas = require("./mergeDatas");
 const mailDatas = require("./mailDatas");
 
 async function deviceDataSplits(formData, devices, fromInput, toInput, url) {
-	const TWO_WEEKS = 60 /* * 60 * 24 */ * 14;
+	const TWO_WEEKS = 60 * 60 * 24 * 14;
 	let currentFrom = fromInput;
 	let allResults = [];
 
