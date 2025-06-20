@@ -9,8 +9,6 @@ async function deviceData(formData, devices, fromInput, toInput, url) {
 
 		const timeSeriesData = [];
 
-		console.log(timeSeriesData);
-
 		let loader = 0;
 		process.stdout.write(`\r${Math.floor((loader / devices.length) * 100)}%`);
 
@@ -24,8 +22,6 @@ async function deviceData(formData, devices, fromInput, toInput, url) {
 			});
 
 			timeSeriesData.push(res.data);
-
-			console.log(timeSeriesData);
 
 			loader += 1;
 			process.stdout.write(`\r${Math.floor((loader / devices.length) * 100)}%`);
