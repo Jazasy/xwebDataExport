@@ -18,8 +18,8 @@ async function deviceDataSplits(formData, devices, fromInput, toInput, url) {
 		const result = await deviceData(
 			formDataCopy,
 			devices,
-			currentFrom,
-			currentTo,
+			currentFrom.toString(),
+			currentTo.toString(),
 			url
 		);
 
