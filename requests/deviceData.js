@@ -25,7 +25,7 @@ async function deviceData(formData, devices, fromInput, toInput, url) {
 					},
 				});
 
-				timeSeriesData.push(res.data);
+				timeSeriesData.push(res.data.data);
 
 				success = true;
 			} catch (error) {

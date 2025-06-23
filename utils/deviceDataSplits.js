@@ -23,6 +23,8 @@ async function deviceDataSplits(formData, devices, fromInput, toInput, url) {
 			url
 		);
 
+		console.dir(result, { depth: 99 });
+
 		if (result) {
 			allResults.push(result); //ide nem jó a spreads
 
