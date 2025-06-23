@@ -30,8 +30,8 @@ async function deviceData(formData, devices, fromInput, toInput, url) {
 				success = true;
 			} catch (error) {
 				console.log(error);
-				console.log(`ERROR AT REQUESTIN DEVICE DATA ${device.id}`);
-				console.log("RETRY...");
+				console.log(`\rERROR AT REQUESTIN DEVICE DATA ${device.id}`);
+				console.log(`\rRETRY...`);
 				await delay(5000);
 			}
 		}

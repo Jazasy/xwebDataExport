@@ -27,7 +27,7 @@ function mailDatas(fileName) {
 		if (error) {
 			console.error(error);
 		} else {
-			console.log("MESSAGE SENT: " + info.response);
+			console.log(`\rMESSAGE SENT: ` + info.response);
 		}
 	});
 }

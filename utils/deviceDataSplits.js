@@ -13,7 +13,7 @@ async function deviceDataSplits(formData, devices, fromInput, toInput, url) {
 
 		const formDataCopy = new URLSearchParams(formData.toString());
 
-		console.log(`Exporting from ${currentFrom} to ${currentTo}:`);
+		console.log(`\rExporting from ${currentFrom} to ${currentTo}:`);
 
 		const result = await deviceData(
 			formDataCopy,
