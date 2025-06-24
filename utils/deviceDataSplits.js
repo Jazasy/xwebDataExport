@@ -24,7 +24,7 @@ async function deviceDataSplits(formData, devices, fromInput, toInput, url) {
 		);
 
 		if (result) {
-			allResults.push(result); //ide nem jó a spreads
+			allResults.push(...result); //ide nem jó a spreads --> az új mergel mégis jó a spread?
 
 			mergedResult = mergeDatas(devices, allResults);
 
