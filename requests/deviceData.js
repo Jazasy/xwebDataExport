@@ -25,7 +25,15 @@ async function deviceData(formData, devices, fromInput, toInput, url) {
 					},
 				});
 
-				timeSeriesData.push(res.data.data);
+				if (res.data && Array.isArray(res.data.data)) {
+					timeSeriesData.push(res.data.data);
+				} else {
+					console.warn(
+						`No valid data for device ${device.id} (interval ${fromInput}-${toInput})`
+					);
+					console.log(res);
+					timeSeriesData.push([]); // vagy ne is pusholj, ha el akarod hagyni
+				}
 
 				success = true;
 			} catch (error) {
