@@ -1,4 +1,4 @@
-require("dotenv").config();
+process.env.PRODUCTION === "true" || require("dotenv").config();
 const fs = require("fs");
 const runtime = require("./requests/runtime");
 const deviceDataSplits = require("./utils/deviceDataSplits");
