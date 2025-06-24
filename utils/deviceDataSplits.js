@@ -4,7 +4,7 @@ const mergeDatas = require("./mergeDatas");
 const mailDatas = require("./mailDatas");
 
 async function deviceDataSplits(formData, devices, fromInput, toInput, url) {
-	const splitTime = 60 /* * 60 * 24  */ * 11; //1 hét gyors és stabil (2 hét is jó, az egy hónap már néha hibát dob)
+	const splitTime = 60 * 60 * 24 * 11; //1 hét gyors és stabil (2 hét is jó, az egy hónap már néha hibát dob)
 	let currentFrom = fromInput;
 	let allResults = [];
 
