@@ -1,4 +1,6 @@
-function mergeDatas(devices, deviceData) {
+const fs = require("fs");
+
+function mergeDatass(devices, deviceData) {
 	return devices.map((device, index) => {
 		const timeseries = deviceData[index] || [];
 
@@ -29,4 +31,11 @@ function mergeDatas(devices, deviceData) {
 	});
 }
 
-module.exports = mergeDatas;
+const devices = JSON.parse(fs.readFileSync("../devices.json", "utf8"));
+const deviceData = JSON.parse(
+	fs.readFileSync("../testDeviceDatas.json", "utf8")
+);
+
+const merdgedDatas = mergeDatass(devices, deviceData);
+
+fs.writeFileSync("testMergedDatas.json", JSON.stringify(merdgedDatas, null, 2));
