@@ -1,4 +1,4 @@
-process.env.PRODUCTION === "false" && require("dotenv").config();
+require("dotenv").config();
 const fs = require("fs");
 const runtime = require("./requests/runtime");
 const deviceDataSplits = require("./utils/deviceDataSplits");

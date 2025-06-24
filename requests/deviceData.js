@@ -27,6 +27,7 @@ async function deviceData(formData, devices, fromInput, toInput, url) {
 
 				if (res.data && Array.isArray(res.data.data)) {
 					timeSeriesData.push(res.data.data);
+					console.log(timeSeriesData);
 				} else {
 					console.warn(
 						`No valid data for device ${device.id} (interval ${fromInput}-${toInput})`
