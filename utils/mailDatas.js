@@ -1,7 +1,20 @@
 //require("dotenv").config({ path: "../.env" });
 const nodemailer = require("nodemailer");
+const path = require("path");
+const { uploadToDropbox } = require("./dropboxUploader");
 
-function mailDatas(fileName) {
+async function mailDatas(fileName) {
+	const filePath = path.join(__dirname, "../", fileName);
+	let dropboxLink;
+
+	try {
+		dropboxLink = await uploadToDropbox(filePath, `/${fileName}`);
+		console.log(`Uploaded to DropBox: ${dropboxLink}`);
+	} catch (err) {
+		console.error("Error at uploadin to DropBox:", err);
+		return;
+	}
+
 	let transporter = nodemailer.createTransport({
 		service: "gmail",
 		auth: {
@@ -15,12 +28,7 @@ function mailDatas(fileName) {
 		to: process.env.GMAIL_ADDRESS,
 		subject: "XWEB500 DATA EXPORT",
 		text: "AUTOMATIC MESSAGE",
-		attachments: [
-			{
-				filename: fileName,
-				path: `./${fileName}`,
-			},
-		],
+		html: `<p>Az adatokat letöltheted innen:<br><a href="${dropboxLink}">${dropboxLink}</a></p>`,
 	};
 
 	transporter.sendMail(mailOptions, function (error, info) {
