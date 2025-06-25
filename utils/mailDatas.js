@@ -64,6 +64,4 @@ async function mailDatas(fileName) {
 	  }
 }
 
-mailDatas("test.json");
-
 module.exports = mailDatas;
