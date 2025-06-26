@@ -10,4 +10,9 @@ allDeviceData.json
 testDeviceDatas.json
 testDevices.json
 testMergedDatas.json
+<<<<<<< HEAD
 test.json
+=======
+test.json
+node_modules
+>>>>>>> bacd12876d92a3ab8624aa823f105cd586faff27

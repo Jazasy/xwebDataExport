@@ -24,11 +24,9 @@ async function deviceDataSplits(formData, devices, fromInput, toInput, url) {
 		);
 
 		if (result) {
-			allResults.push(...result); //ide nem jó a spreads --> az új mergel mégis jó a spread?
+			mergedResult = mergeDatas(devices, result);
 
-			mergedResult = mergeDatas(devices, allResults);
-
-			const fileName = `from${fromInput}-to${currentTo}-SPLIT.json`;
+			const fileName = `from${currentFrom}-to${currentTo}-SPLIT.json`;
 
 			fs.writeFileSync(fileName, JSON.stringify(mergedResult, null, 2));
 
@@ -42,3 +40,5 @@ async function deviceDataSplits(formData, devices, fromInput, toInput, url) {
 }
 
 module.exports = deviceDataSplits;
+
+
