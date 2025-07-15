@@ -3,10 +3,17 @@ const fs = require("fs");
 const mergeDatas = require("./mergeDatas");
 const mailDatas = require("./mailDatas");
 
-async function deviceDataSplits(formData, devices, fromInput, toInput, url) {
+async function deviceDataSplits(
+	formData,
+	devices,
+	fromInput,
+	toInput,
+	url,
+	emailAddress
+) {
 	const splitTime = 60 * 60 * 24 * 3; //1 hét gyors és stabil (2 hét is jó, az egy hónap már néha hibát dob)
 	let currentFrom = fromInput;
-	let allResults = [];
+	let success = false;
 
 	while (currentFrom < toInput) {
 		const currentTo = Math.min(currentFrom + splitTime, toInput);
@@ -30,15 +37,15 @@ async function deviceDataSplits(formData, devices, fromInput, toInput, url) {
 
 			fs.writeFileSync(fileName, JSON.stringify(mergedResult, null, 2));
 
-			mailDatas(fileName);
+			emailAddress && mailDatas(fileName, emailAddress);
+
+			success = true;
 		}
 
 		currentFrom = currentTo;
 	}
 
-	return allResults;
+	return success;
 }
 
 module.exports = deviceDataSplits;
-
-

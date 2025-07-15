@@ -3,7 +3,7 @@ const nodemailer = require("nodemailer");
 const path = require("path");
 const archiver = require("archiver");
 const fs = require("fs");
-const fsp = require("fs/promises");  
+const fsp = require("fs/promises");
 
 async function zipFile(inputFile, outputZipPath) {
 	return new Promise((resolve, reject) => {
@@ -23,7 +23,7 @@ async function zipFile(inputFile, outputZipPath) {
 	});
 }
 
-async function mailDatas(fileName) {
+async function mailDatas(fileName, emailAddress) {
 	const zipName = `${fileName}.zip`;
 	await zipFile(`./${fileName}`, zipName);
 
@@ -37,7 +37,7 @@ async function mailDatas(fileName) {
 
 	let mailOptions = {
 		from: process.env.GMAIL_USER,
-		to: process.env.GMAIL_ADDRESS,
+		to: emailAddress,
 		subject: "XWEB500 DATA EXPORT",
 		text: "AUTOMATIC MESSAGE",
 		attachments: [
@@ -52,16 +52,16 @@ async function mailDatas(fileName) {
 	try {
 		const info = await transporter.sendMail(mailOptions);
 		console.log(`MESSAGE SENT: ${info.response}`);
-	
+
 		// Mindkettő törlése:
 		await fsp.unlink(zipName);
 		console.log(`zip deleted: ${zipName}`);
-	
+
 		await fsp.unlink(`../${fileName}`);
 		console.log(`original file deleted: ${fileName}`);
-	  } catch (error) {
+	} catch (error) {
 		console.error("Error sending mail or deleting files:", error);
-	  }
+	}
 }
 
 module.exports = mailDatas;

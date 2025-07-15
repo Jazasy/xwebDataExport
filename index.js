@@ -1,16 +1,18 @@
-//require("dotenv").config();
-const fs = require("fs");
 const runtime = require("./requests/runtime");
 const deviceDataSplits = require("./utils/deviceDataSplits");
-const fullMerge = require("./utils/fullMerge");
-const mailDatas = require("./utils/mailDatas");
+const question = require("./utils/question");
 
 async function main() {
-	const ip = process.env.IP;
-	const usernameInput = process.env.USERNAMEE;
-	const passwordInput = process.env.PASSWORD;
-	const fromInput = process.env.FROM;
-	const toInput = process.env.TO;
+	const ip = await question("Enter the IP address of XWEB: \n");
+	const usernameInput = await question("Enter your username: \n");
+	const passwordInput = await question("Enter your password: \n");
+	const fromInput = await question(
+		"Enter the beggining of the time interval (use UNIX timestamp format with seconds): \n"
+	);
+	const toInput = await question(
+		"Enter the end of the time interval (use UNIX timestamp format with seconds): \n"
+	);
+	const emailAddress = null;
 
 	const url = `http://${ip}/api`;
 
@@ -20,25 +22,18 @@ async function main() {
 	formData.append("password", passwordInput);
 
 	const devices = await runtime(formData, url);
-	const values = await deviceDataSplits(
-		formData,
-		devices,
-		parseInt(fromInput, 10),
-		parseInt(toInput, 10),
-		url
-	);
+	const values =
+		devices &&
+		(await deviceDataSplits(
+			formData,
+			devices,
+			parseInt(fromInput, 10),
+			parseInt(toInput, 10),
+			url,
+			emailAddress
+		));
 
-	fs.writeFileSync("devices.json", JSON.stringify(devices, null, 2));
-
-	fs.writeFileSync("allDeviceData.json", JSON.stringify(values, null, 2));
-
-	const allMergedDatas = fullMerge(devices, values);
-
-	const fileName = `from${fromInput}-to${toInput}-FULL.json`;
-
-	fs.writeFileSync(fileName, JSON.stringify(allMergedDatas, null, 2));
-
-	mailDatas(fileName);
+	values && console.log("you can find the file(s) in the program's directory");
 }
 
 main();

@@ -22,7 +22,6 @@ async function runtime(formData, url) {
 		return decode(devices);
 	} catch (error) {
 		console.error("ERROR IN RUNTIME REQUEST");
-		console.error(error);
 	}
 }
 
